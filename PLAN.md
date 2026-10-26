@@ -46,7 +46,7 @@ Missing pictures render as orange dashed boxes labelled with their id, so a rend
 ## Budget log
 | Item | Limit | Used | Notes |
 |---|---|---|---|
-| Image generations | 120 | 38 | Higgsfield `gpt_image_2_5` (GPT Image 2.5), quality high. 2K for 18 characters, 1K for 20 props. ~80 credits; 1 left for remakes: plenty |
+| Image generations | 120 | 38 | Higgsfield `gpt_image_2_5` (GPT Image 2.5), quality high. 2K for 18 characters, 1K for 20 props. ~80 credits spent; 102.5 credits left for remakes |
 | Full voice passes | 3 | 1 | 28 paragraph takes, no re-takes needed. ElevenLabs flow `LkHJzJz0Zh1qYv9nvh8L` |
 
 ## What I learned from the reference channel (style only)
