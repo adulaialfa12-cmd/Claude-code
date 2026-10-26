@@ -1,0 +1,8 @@
+node_modules/
+remotion/node_modules/
+audio/.work/
+out/
+stills/
+*.mp4
+*.wav
+__pycache__/
