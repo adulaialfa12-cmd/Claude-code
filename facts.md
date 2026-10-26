@@ -40,6 +40,15 @@ Rule: every number or factual claim in the narration is listed here. Anything ex
 | 34 | Farming began about 11,500 years ago in the Middle East (Fertile Crescent), later elsewhere | M. Zeder 2011, "The Origins of Agriculture in the Near East", *Current Anthropology* 52(S4) | Solid (dates vary by crop/site) |
 | 35 | Some of the earliest writing (Uruk, Mesopotamia, ~5,000 years ago, c. 3350–3000 BCE) is mostly administrative: lists of grain, beer, animals, workers (~85% administrative) | R. Englund, "Accounting in Proto-Cuneiform" (Oxford Handbook of Cuneiform Culture, 2011) https://cdli.ucla.edu/staff/englund/publications/englund2011a.pdf | Solid |
 
+| 36 | A Hadza camp is small, usually around thirty people, living in simple grass huts | Marlowe 2010, *The Hadza* (mean camp size ≈ 30) | Solid (camp size varies through the year) |
+| 37 | Joking made up about one in six daytime Ju/'hoansi conversations (16%) | Wiessner 2014 *PNAS* (as #20); figure reported by The Namibian and the UNCG Peaceful Societies summary | Solid |
+| 38 | Firelight talk helped people keep track of the wider social world: who is related to whom, who lives where (Wiessner's argument) | Wiessner 2014 *PNAS* abstract and discussion | Interpretation by the author, presented as "Wiessner argued" |
+| 39 | Regular (habitual) use of fire from at least about 400,000 years ago; the earliest dates are still debated | Roebroeks & Villa 2011, "On the earliest evidence for habitual use of fire in Europe", *PNAS* 108:5209–5214 (habitual use ~400–300 ka); older claims (e.g. Wonderwerk Cave ~1 Ma) are debated | **DEBATED** for earliest dates (said so) |
+| 40 | Hxaro has been described by researchers as a kind of insurance spread across a region | Wiessner 1977/1982 (hxaro as risk reduction / "pooling risk") | Solid as a description of the literature |
+| 41 | People at Olorgesailie were already using red pigment | Brooks et al. 2018 *Science* — title: "Long-distance stone transport and pigment use in the earliest Middle Stone Age" | Solid |
+| 42 | Stamped coins carried a promise about their weight, so no scale was needed for each payment | Yale "First Coins" working paper (2024): Lydia produced "stamped, standardized electrum pieces"; standard weights are the point of the stamp | Solid (simplified) |
+| 43 | Three groups in the sleep study: Hadza, San, Tsimane | Yetish et al. 2015 (as #21) | Solid |
+
 ## Opinions / interpretation in the script (not facts)
 - "Their wealth was each other" / "A good name was the closest thing to a bank account" / "Money just changed how we keep score" — narrator's interpretation, worded as a conclusion, not a measured fact.
 - "The safest place to keep extra meat was in your neighbors" — a figure of speech summarizing #30–#32.

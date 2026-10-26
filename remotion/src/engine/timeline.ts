@@ -180,7 +180,7 @@ function build() {
       const nx = sentences[pd.sn.i + 1];
       tOut = nx ? nx.s - 0.1 : Infinity;
     } else if (pd.el.out !== undefined) {
-      tOut = resolveAt(pd.sn, pd.display, pd.el.out);
+      tOut = findAt(pd.el.out, pd.sn, pd.display);
     }
     const subAts = pd.el.t === 'bars' ? pd.el.items.map((it) => it.at) : pd.el.t === 'clock' ? pd.el.marks.map((m) => m.at) : [];
     const sub = subAts.map((a) => (a === undefined ? tIn : findAt(a, pd.sn, pd.display)));
@@ -208,11 +208,24 @@ interface Key {
   dip: number; // how far the camera pulls back mid-move (0 = straight move)
 }
 
+// keep the frame inside the panel while the camera is "on" a scene (the page only shows during scene moves)
+function fit(sc: Scene, x: number, y: number, z: number) {
+  const zz = Math.min(1.6, Math.max(1.03, z));
+  const hw = W / 2 / zz + 24;
+  const hh = H / 2 / zz + 18;
+  return {
+    x: Math.min(sc.x + W - hw, Math.max(sc.x + hw, sc.x + x)),
+    y: Math.min(sc.y + H - hh, Math.max(sc.y + hh, sc.y + y)),
+    z: zz,
+  };
+}
+
 function buildCameraKeys(): Key[] {
   const keys: Key[] = [];
   const first = scenes[0];
   const s0 = sentences[0];
-  keys.push({t: 0, d: 0.01, x: first.x + s0.cam[1], y: first.y + s0.cam[2], z: s0.cam[0] * 0.96, dip: 0});
+  const f0 = fit(first, s0.cam[1], s0.cam[2], s0.cam[0]);
+  keys.push({t: 0, d: 0.01, ...f0, dip: 0});
   let lastZ = s0.cam[0];
   for (let k = 0; k < sentences.length; k++) {
     const sn = sentences[k];
@@ -224,16 +237,18 @@ function buildCameraKeys(): Key[] {
       // glide to the new panel: start in the pause before the sentence, pull back a little on the way
       const start = Math.max(prev.e + 0.05, sn.s - 1.1);
       const chapterChange = prev.chapter !== sn.chapter;
-      keys.push({t: start, d: chapterChange ? 2.3 : 1.8, x: sc.x + sn.cam[1], y: sc.y + sn.cam[2], z: sn.cam[0], dip: chapterChange ? 0.42 : 0.3});
-      lastZ = sn.cam[0];
+      const f = fit(sc, sn.cam[1], sn.cam[2], sn.cam[0]);
+      keys.push({t: start, d: chapterChange ? 2.3 : 1.8, ...f, dip: chapterChange ? 0.42 : 0.3});
+      lastZ = f.z;
     } else if (sn.explicitCam) {
-      keys.push({t: sn.s - 0.15, d: Math.min(1.6, Math.max(1.0, dur * 0.6)), x: sc.x + sn.cam[1], y: sc.y + sn.cam[2], z: sn.cam[0], dip: 0});
-      lastZ = sn.cam[0];
+      const f = fit(sc, sn.cam[1], sn.cam[2], sn.cam[0]);
+      keys.push({t: sn.s - 0.15, d: Math.min(1.6, Math.max(1.0, dur * 0.6)), ...f, dip: 0});
+      lastZ = f.z;
     } else {
       // no new framing asked for: keep a slow push-in going so the frame never sits still
-      const z = lastZ * 1.035;
-      keys.push({t: sn.s - 0.1, d: Math.max(1.2, dur + 0.3), x: sc.x + sn.cam[1], y: sc.y + sn.cam[2], z, dip: 0});
-      lastZ = z;
+      const f = fit(sc, sn.cam[1], sn.cam[2], Math.min(1.45, lastZ * 1.035));
+      keys.push({t: sn.s - 0.1, d: Math.max(1.2, dur + 0.3), ...f, dip: 0});
+      lastZ = f.z;
     }
   }
   return keys;
@@ -277,9 +292,9 @@ export function cameraAt(t: number) {
   }
   // a gentle hand-held drift on top, so the frame is never perfectly still
   return {
-    x: v.x + 10 * Math.sin(t * 0.23) + 5 * Math.sin(t * 0.61 + 1.3),
+    x: v.x + 9 * Math.sin(t * 0.23) + 5 * Math.sin(t * 0.61 + 1.3),
     y: v.y + 7 * Math.sin(t * 0.19 + 0.7) + 4 * Math.sin(t * 0.53 + 2.1),
-    z: v.z * (1 + 0.006 * Math.sin(t * 0.17 + 0.4)),
+    z: v.z * (1 + 0.004 * (1 + Math.sin(t * 0.17 + 0.4))),
   };
 }
 

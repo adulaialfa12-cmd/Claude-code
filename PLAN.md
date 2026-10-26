@@ -14,31 +14,40 @@ Target: ~15 min, ~2,200 words, one calm narrator, 1920x1080 @ 60 fps.
 - [x] Picture list (38 single-object pictures) in `images/prompts.json` and `script.md`
 
 ### Step 2 — pictures
-- [ ] Generate hero character (reference for the others)
-- [ ] Generate the remaining pictures
-- [ ] Cut out backgrounds → `images/*.png`
+- [x] Generate hero character (reference for the others) — job `07cfc939-…`
+- [x] Generate the remaining pictures (38/38 done; job IDs in `images/jobs.json`, links in `images/urls.json`)
+- [ ] **BLOCKED — download.** The environment's network policy refuses `d8j0ntlcm91z4.cloudfront.net` (Higgsfield's image host). Allow it, then run `bash scripts/fetch_images.sh` (downloads + cuts out + writes `remotion/src/data/images.json`).
 - [ ] Check each picture (text, colour, cut-off edges, style) and remake failures (max 2 remakes each)
 
 ### Step 3 — voice
-- [ ] Generate narration one paragraph at a time (same voice, same model, same settings)
-- [ ] Join paragraphs with natural pauses → `audio/narration.wav`
-- [ ] Word-level timings → `remotion/src/data/timings.json`
+- [x] Generate narration one paragraph at a time (28 takes, same voice, model and settings)
+- [x] Join paragraphs with natural pauses → `audio/narration.wav` (15:10, rebuild with `python3 scripts/build_audio.py`)
+- [x] Word-level timings → `remotion/src/data/timings.json` (offline forced alignment, pocketsphinx; all 2,187 words)
 
 ### Step 4 — animation
 - [x] Remotion engine: one world, one camera, eased moves, magnifier, glow paths, counters, self-drawing diagrams, parallax
-- [ ] Hook shots up to word timings
-- [ ] One composition per chapter + `Full`
+- [x] Every shot tied to its spoken word (`at:` cues resolved from the word timings)
+- [x] One composition per chapter (`ch-intro` … `ch-ch10`) + `Full`
+- [x] "Something new every 5 s" check: longest gap 4.6 s (`script.md` footer)
 
 ### Step 5 — check and render
-- [ ] Stills every 2 s and at every shot change, per chapter; review and fix
-- [ ] Render `out/full-video.mp4` with voice
-- [ ] Write `youtube.md` (title + 2 alternatives, description with timestamps, sources, thumbnail idea, AI-disclosure note)
+- [x] Layout pass on hook + chapter 1 with placeholders (fixed: camera showing page edge, header clipped on a push-in)
+- [ ] Stills every 2 s and at every shot change, per chapter, **with the real pictures**; review and fix — `npx tsx scripts/stills.ts <dir> <chapter>` then `python3 ../scripts/contact_sheets.py <dir> <sheets>`
+- [ ] Render `out/full-video.mp4` with voice (≈1 hour at ~15 fps): see "Render" below
+- [x] Write `youtube.md` (title + 2 alternatives, description with timestamps, sources, thumbnail idea, AI-disclosure note)
+
+### Render (from `remotion/`)
+```
+npx remotion render src/index.ts Full ../out/full-video.mp4 --concurrency=4 \
+  --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
+```
+Missing pictures render as orange dashed boxes labelled with their id, so a render can never silently ship without them.
 
 ## Budget log
 | Item | Limit | Used | Notes |
 |---|---|---|---|
-| Image generations | 120 | 0 | Higgsfield `gpt_image_2_5`, quality high. 2K for characters, 1K for props |
-| Full voice passes | 3 | 0 | |
+| Image generations | 120 | 38 | Higgsfield `gpt_image_2_5` (GPT Image 2.5), quality high. 2K for 18 characters, 1K for 20 props. ~80 credits; 1 left for remakes: plenty |
+| Full voice passes | 3 | 1 | 28 paragraph takes, no re-takes needed. ElevenLabs flow `LkHJzJz0Zh1qYv9nvh8L` |
 
 ## What I learned from the reference channel (style only)
 YouTube itself was not reachable from the build machine, so these notes come from the channel screenshot supplied with the brief (six recent uploads), not from watching full videos.
@@ -63,7 +72,8 @@ Our own character (original, not the reference's): short dark-brown hair, tan hi
   - Note: the workspace also has a lowercase **"balde 1"** (`CupAGF51i4wviewHhSGh`) with the same description. We used the exact-case "BALDE 1".
 - Model: `eleven_multilingual_v2` (steadiest for long narration).
 - Settings: the voice's saved defaults (the connector does not set stability/similarity per call), one take per paragraph.
-- Pause between paragraphs: 0.55 s; between chapters: 0.9 s.
+- The voice reads ~165 wpm; to keep it calm, `scripts/build_audio.py` adds 0.35 s between sentences, 0.6 s between paragraphs, 1.0 s between chapters (no time-stretching).
+- Hard names are respelled for the voice only (`tts:` field): Ju/'hoansi → "Zhu-twa-see", hxaro → "hah-roh", Olorgesailie → "Oh-lor-geh-sigh-lee", Bizmoune → "Biz-moon", Geissenklösterle → "Geissen-klers-ter-leh".
 
 ## Production notes / decisions
 - Images: single cut-outs on white → background removed locally (white flood-fill from the edges + soft edge), so line art inside the drawing is not damaged.

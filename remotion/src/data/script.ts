@@ -130,7 +130,7 @@ export const chapters: Chapter[] = [
             ],
           }),
           s("Knock out another man's tooth, and you owed two shekels of silver.", {
-            cam: [1.22, 760, 600],
+            cam: [1.15, 820, 570],
             els: [T('a knocked-out tooth = 2 shekels of silver', 760, 860, {at: 'two', size: 50})],
           }),
           s('But a shekel back then was a weight, not a coin.', {
@@ -544,7 +544,7 @@ export const chapters: Chapter[] = [
           }),
           s('Some days were long and hard, like a hunt that went on until dark. Other days were quiet.', {
             cam: [1.12, 1000, 620],
-            els: [G('M 140 300 Q 960 -40 1780 300', {at: 'long', dur: 2.6, color: '#ffb35b'})],
+            els: [G('M 140 300 Q 960 -40 1780 300', {at: 'long', dur: 2.6, color: '#ffb35b'}), T('other days: quiet', 960, 940, {at: 'quiet', size: 50})],
           }),
           s('The line between work and the rest of life was blurry.', {
             scene: sc('ch4-g', 'paper'),
@@ -637,6 +637,7 @@ export const chapters: Chapter[] = [
             els: [
               T('daytime talk', 640, 180, {size: 52}),
               P(640, 560, 250, 0.34, 'complaints & criticism · 34%', {at: 'third', color: '#b5562c'}),
+              T('about 1 in 3 daytime conversations', 640, 930, {at: 'criticism', size: 38, color: '#7a6a58'}),
               I('char_carry', 1420, 620, 440, {at: 'sharing', anim: 'rise'}),
               T('not sharing?', 1420, 300, {at: 'sharing', size: 46}),
               T('too proud?', 1420, 940, {at: 'proud', size: 46}),
@@ -710,7 +711,7 @@ export const chapters: Chapter[] = [
           s('More than eighty percent of the night conversations she noted were stories.', {
             scene: sc('ch6-c', 'night'),
             cam: [1.0, 960, 540],
-            els: [T('night talk', 640, 190, {size: 52, color: '#f3e7cf'}), P(640, 560, 250, 0.81, 'stories · 81%', {at: 'eighty', color: '#e0a64a'})],
+            els: [T('night talk', 640, 190, {size: 52, color: '#f3e7cf'}), P(640, 560, 250, 0.81, 'stories · 81%', {at: 'eighty', color: '#e0a64a'}), G(ring(640, 560, 290, 290), {at: 'stories', dur: 2.4, color: '#e0a64a'})],
           }),
           s('In daylight, stories made up only about six percent.', {
             els: [T('day talk', 1300, 190, {size: 52, color: '#f3e7cf', at: 'daylight'}), P(1300, 560, 250, 0.06, 'stories · 6%', {at: 'six', color: '#e0a64a'})],
@@ -760,6 +761,7 @@ export const chapters: Chapter[] = [
             els: [
               D('M 300 240 L 1620 240', {at: 'study', width: 6, stroke: '#f3e7cf', dur: 1}),
               T('sunset', 300, 180, {at: 'study', size: 40, color: '#f3e7cf'}),
+              T('Hadza · San · Tsimane', 960, 440, {at: 'Hadza', size: 44, color: '#f3e7cf'}),
               G('M 300 240 L 900 240', {at: 'stayed', dur: 2, trail: true}),
               T('≈ 3 hours awake after dark', 900, 320, {at: 'three#2', size: 44, color: '#f3e7cf'}),
             ],
@@ -773,6 +775,7 @@ export const chapters: Chapter[] = [
             cam: [1.15, 960, 640],
             els: [
               I('obj_fire', 960, 700, 380, {anim: 'grow'}),
+              G(ring(960, 700, 300, 230), {at: 'Archaeologists', dur: 3, loop: true, color: '#ffb35b'}),
               C(400000, 960, 180, {at: 'four', size: 64, suffix: '+ years of regular fire use', dur: 1.6}),
               T('earliest dates: still debated', 960, 1000, {at: 'debated', size: 40, color: '#f3e7cf'}),
             ],
@@ -814,6 +817,7 @@ export const chapters: Chapter[] = [
               T('Olorgesailie, Kenya', 960, 210, {at: 'Kenya', size: 54}),
               I('obj_obsidian', 960, 560, 340, {at: 'tools', anim: 'grow'}),
               M(990, 470, 1500, 380, 170, 2.2, {at: 'volcanic'}),
+              T('obsidian = volcanic glass', 960, 930, {at: 'archaeologists', size: 44}),
             ],
           }),
           s('The tools are around three hundred thousand years old.', {cam: [1.05, 960, 640], els: [C(300000, 960, 880, {at: 'three', size: 60, suffix: ' years old', dur: 1.6})]}),
