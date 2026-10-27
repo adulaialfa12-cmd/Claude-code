@@ -54,5 +54,15 @@
  "char_meso_tooth": "3a0ad871-6f46-4190-a8b1-0a626d2c8d9f",
  "char_meso_payer": "5fe1abe5-be50-4488-853a-e064f06f7454",
  "char_meso_worker": "ff688934-a64e-4c88-bf59-6144414bef98",
- "char_meso_merchant": "6c27c2e7-4b32-4137-9d86-73c6f34fd573"
+ "char_meso_merchant": "6c27c2e7-4b32-4137-9d86-73c6f34fd573",
+ "char_scholars": "d703568d-f929-46dc-b5c2-c707c12ee5f9",
+ "char_agta_forager": "ea011e93-919d-4670-84a8-e69d8cd4c149",
+ "char_agta_farmer": "3934a9da-edb7-4d7c-bdde-ae2551115462",
+ "char_grandmother": "ef6a6aec-db00-479b-b968-e4a9feb92144",
+ "char_sister": "5e28c26f-a129-4813-9704-ec2c05bf4ee3",
+ "char_whistle": "edcb6cc4-b093-4180-a386-9dd5573fa245",
+ "char_tired_hunter": "03e3ec52-55b1-49c2-8ef9-e499832e868b",
+ "char_stingy": "afd7d2a0-228f-4c3f-9c53-1d429e524b42",
+ "char_complain": "44179bb8-f609-4217-ae25-7d2625276dbd",
+ "char_dance": "cf98bc96-f4e7-410e-a8d2-5d1cbc9dc8fb"
 }

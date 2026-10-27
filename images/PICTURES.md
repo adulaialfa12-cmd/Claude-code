@@ -1,6 +1,6 @@
-# Pictures (open in your browser — this build machine can't download them yet)
+# Pictures (66) — open in your browser
 
-Click a name to see the full-size picture.
+This build machine can't download these yet. Either allow the image host in the environment's Network access settings, or download them and upload them into the chat (a single .zip is fine; keep the original file names).
 
 - [char_stand](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261026_213950_07cfc939-6784-4021-bd84-b7d6195f2df2.png)
 - [char_bead](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261026_214248_0f2625b3-2199-4368-9732-80211de36cbb.png)
@@ -46,3 +46,25 @@ Click a name to see the full-size picture.
 - [person_wiessner](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_182418_bdbaabb2-4987-4ea3-8852-8093e24e8be7.png)
 - [person_miller](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_182532_243d7ad1-c2ef-44e0-a6f2-30cb93a5593d.png)
 - [person_wang](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_182531_dc4d23f3-f625-45f0-8c84-14b8277e4f32.png)
+- [host_wave](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194316_480b6905-3a98-46ce-aa47-1e10a6aeb37b.png)
+- [host_point](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194315_789f302b-7940-472d-8842-9d427e8a21da.png)
+- [host_count](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194315_5811e4aa-0cf2-45eb-b92f-7558505cc647.png)
+- [host_surprised](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194316_447c156d-4a28-4e6a-99d1-3c951e7a3273.png)
+- [host_shrug](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194606_e22089ce-40be-45ce-a2b4-0ce5c1254c08.png)
+- [char_archaeologist](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194606_3a94a9a3-2193-4706-a4cd-419881c3fc47.png)
+- [char_researcher](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194605_effc3bb7-5434-4c70-8d50-f8f00b4f3e31.png)
+- [char_lydian](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194606_f51d1c20-ffcb-49f1-a2c2-338c4ca41b49.png)
+- [char_meso_tooth](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194650_3a0ad871-6f46-4190-a8b1-0a626d2c8d9f.png)
+- [char_meso_worker](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194649_ff688934-a64e-4c88-bf59-6144414bef98.png)
+- [char_meso_merchant](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194649_6c27c2e7-4b32-4137-9d86-73c6f34fd573.png)
+- [char_meso_payer](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_194650_5fe1abe5-be50-4488-853a-e064f06f7454.png)
+- [char_scholars](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195105_d703568d-f929-46dc-b5c2-c707c12ee5f9.png)
+- [char_agta_forager](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195106_ea011e93-919d-4670-84a8-e69d8cd4c149.png)
+- [char_agta_farmer](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195106_3934a9da-edb7-4d7c-bdde-ae2551115462.png)
+- [char_grandmother](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195105_ef6a6aec-db00-479b-b968-e4a9feb92144.png)
+- [char_sister](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195204_5e28c26f-a129-4813-9704-ec2c05bf4ee3.png)
+- [char_whistle](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195203_edcb6cc4-b093-4180-a386-9dd5573fa245.png)
+- [char_tired_hunter](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195204_03e3ec52-55b1-49c2-8ef9-e499832e868b.png)
+- [char_stingy](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195205_afd7d2a0-228f-4c3f-9c53-1d429e524b42.png)
+- [char_complain](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195253_44179bb8-f609-4217-ae25-7d2625276dbd.png)
+- [char_dance](https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261027_195252_cf98bc96-f4e7-410e-a8d2-5d1cbc9dc8fb.png)
