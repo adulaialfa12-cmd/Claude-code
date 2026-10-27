@@ -229,6 +229,48 @@
       "kind": "obj",
       "resolution": "1k",
       "prompt": "a single lump of red ochre stone with a few scraped grooves, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_humphrey",
+      "kind": "person",
+      "represents": "anthropologist Caroline Humphrey, 1985",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure woman with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a plain dark-green cardigan and skirt, sitting at a wooden desk reading through a tall stack of papers and books, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_lee",
+      "kind": "person",
+      "represents": "anthropologist Richard Lee, 1960s fieldwork",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure man with a plain white round face, two dot eyes, short dark hair, thin black stick arms and legs, wearing a khaki short-sleeved field shirt, khaki shorts and a canvas sun hat, sitting on a small folding camp stool writing in an open notebook, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_sahlins",
+      "kind": "person",
+      "represents": "anthropologist Marshall Sahlins, 1960s",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure man with a plain white round face, two dot eyes, short dark hair, thin black stick arms and legs, wearing a brown tweed jacket and tie, sitting at a desk typing on an old manual typewriter, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_wiessner",
+      "kind": "person",
+      "represents": "anthropologist Polly Wiessner, 1970s fieldwork",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure woman with a plain white round face, two dot eyes, shoulder-length dark-brown hair, thin black stick arms and legs, wearing a khaki field shirt and trousers, sitting cross-legged writing in a small notebook on her knee, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_miller",
+      "kind": "person",
+      "represents": "researcher Jennifer Miller (2022 bead study)",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure person with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a plain blue work shirt, standing and measuring a tiny white bead with metal calipers, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "person_wang",
+      "kind": "person",
+      "represents": "researcher Yiming Wang (2022 bead study)",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure person with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a plain green work shirt, standing and looking at a tiny white bead through a hand magnifying glass, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
     }
   ]
 }

@@ -36,5 +36,11 @@
  "obj_antelope": "8494d6a6-4e5a-4551-a189-f5b6bff43d24",
  "obj_tree": "906036cd-2add-488f-9e6d-8f01ca040b44",
  "obj_skull": "503ecadf-e4eb-4ecd-bfcf-0569c39349c2",
- "obj_ochre": "a34ac820-7769-4958-9f98-c00d225293fd"
+ "obj_ochre": "a34ac820-7769-4958-9f98-c00d225293fd",
+ "person_humphrey": "d2b737e8-8c4a-426d-ac98-1130955dcb56",
+ "person_lee": "130536da-dd32-4fc3-add3-307874e97077",
+ "person_sahlins": "7ae1c447-0786-4018-b6c3-89b341bd4dc3",
+ "person_wiessner": "bdbaabb2-4987-4ea3-8852-8093e24e8be7",
+ "person_miller": "243d7ad1-c2ef-44e0-a6f2-30cb93a5593d",
+ "person_wang": "dc4d23f3-f625-45f0-8c84-14b8277e4f32"
 }

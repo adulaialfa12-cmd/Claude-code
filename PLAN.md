@@ -46,7 +46,7 @@ Missing pictures render as orange dashed boxes labelled with their id, so a rend
 ## Budget log
 | Item | Limit | Used | Notes |
 |---|---|---|---|
-| Image generations | 120 | 38 | Higgsfield `gpt_image_2_5` (GPT Image 2.5), quality high. 2K for 18 characters, 1K for 20 props. ~80 credits spent; 102.5 credits left for remakes |
+| Image generations | 120 | 44 | Higgsfield `gpt_image_2_5` (GPT Image 2.5), quality high. 2K for 18 characters + 6 named people, 1K for 20 props |
 | Full voice passes | 3 | 1 | 28 paragraph takes, no re-takes needed. ElevenLabs flow `LkHJzJz0Zh1qYv9nvh8L` |
 
 ## What I learned from the reference channel (style only)
@@ -81,3 +81,10 @@ Our own character (original, not the reference's): short dark-brown hair, tan hi
 - Labels, numbers and diagrams are drawn by the animation (never baked into pictures).
 - Font: Patrick Hand (SIL Open Font License), via `@fontsource/patrick-hand`.
 - No music (nothing royalty-free was added).
+
+## Named people (added on request)
+Everyone the narration names is shown on screen on the word their name is spoken, with a name caption:
+Caroline Humphrey (ch2), Richard Lee (ch4, twice), Marshall Sahlins (ch4), Polly Wiessner (ch5, ch6 ×2, ch7), and the "two researchers" of the 2022 bead study, Jennifer Miller & Yiming Wang (ch8).
+Each is one consistent cartoon figure in the video's style; identity comes from era-correct clothing/props (1960s–70s fieldwork notebooks, 1985 desk, 1960s typewriter, 2022 bead measuring) and the caption. Their real faces are deliberately not imitated (not verifiable in this style, and realistic likenesses of real people would trigger YouTube's synthetic-content disclosure and privacy rules).
+Unnamed groups ("researchers", "Hadza hunters") are shown as generic figures.
+Review: `npx tsx remotion/scripts/people-stills.ts <dir>` renders a still at each mention.

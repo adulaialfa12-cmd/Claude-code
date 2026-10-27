@@ -229,7 +229,8 @@ export const chapters: Chapter[] = [
               T('1985 · Caroline Humphrey, Cambridge', 960, 140, {at: '1985', size: 54}),
               D('M 1120 260 L 1520 260 L 1520 820 L 1120 820 Z', {at: 'looked', width: 6, dur: 1.2}),
               D('M 1170 360 L 1470 360 M 1170 440 L 1470 440 M 1170 520 L 1420 520 M 1170 600 L 1470 600 M 1170 680 L 1380 680', {at: 'evidence', width: 4, stroke: '#8a7660', dur: 1.2}),
-              I('char_think', 620, 620, 440, {at: 'anthropologist'}),
+              I('person_humphrey', 620, 600, 440, {at: 'Humphrey', anim: 'rise'}),
+              T('Caroline Humphrey · anthropologist', 620, 880, {at: 'Humphrey', size: 40}),
             ],
           }),
           s('She wrote that no example of a pure barter economy had ever been described.', {
@@ -455,15 +456,15 @@ export const chapters: Chapter[] = [
             tts: `In the nineteen sixties, the anthropologist Richard Lee measured how long ${JU} adults spent getting food.`,
             scene: sc('ch4-a', 'paper'),
             cam: [1.0, 960, 540],
-            els: [header(4, 'How many hours did they work?'), T('1960s · Richard Lee', 520, 240, {at: 'Lee', size: 50}), I('char_dig', 520, 600, 420, {at: 'measured', anim: 'rise'}), I('obj_tubers', 800, 800, 140, {at: 'food', anim: 'grow'})],
+            els: [header(4, 'How many hours did they work?'), T('1960s · Richard Lee', 520, 240, {at: 'Lee', size: 50}), I('char_dig', 520, 600, 420, {at: 'measured', anim: 'rise'}), I('obj_tubers', 800, 800, 140, {at: 'food', anim: 'grow'}), I('person_lee', 1300, 600, 420, {at: 'Lee', anim: 'rise', out: 'next'}), T('Richard Lee · anthropologist', 1300, 870, {at: 'Lee', size: 40, out: 'next'})],
           }),
           s('His answer was about twelve to nineteen hours a week.', {
             cam: [1.1, 1300, 520],
-            els: [B(1020, 440, 700, 50, [{label: 'getting food', low: 12, value: 19, valueLabel: '12–19 h / week', at: 'twelve', color: '#d9a441'}])],
+            els: [B(1020, 440, 700, 50, [{label: 'getting food', low: 12, value: 19, valueLabel: '12–19 h / week', at: 'twelve', color: '#d9a441'}], {out: 'Another'})],
           }),
           s('Another anthropologist, Marshall Sahlins, used numbers like these to call foragers the original affluent society.', {
             cam: [1.0, 960, 560],
-            els: [T('Marshall Sahlins', 1370, 700, {at: 'Sahlins', size: 46}), T('"the original affluent society"', 960, 900, {at: 'original', size: 64})],
+            els: [I('person_sahlins', 1370, 530, 400, {at: 'Sahlins', anim: 'rise'}), T('Marshall Sahlins · anthropologist', 1370, 790, {at: 'Sahlins', size: 42}), T('"the original affluent society"', 960, 900, {at: 'original', size: 64})],
           }),
           s('Rich, not because they had a lot, but because they needed little and had time to spare.', {
             scene: sc('ch4-b', 'savanna'),
@@ -486,6 +487,8 @@ export const chapters: Chapter[] = [
             els: [
               I('obj_obsidian', 230, 480, 110, {at: 'tools', anim: 'grow'}),
               I('obj_hut', 230, 680, 130, {at: 'camp', anim: 'grow'}),
+              I('person_lee', 1720, 820, 260, {at: 'Lee', anim: 'rise', out: 'which'}),
+              T('Richard Lee, later work', 1720, 985, {at: 'Lee', size: 34, out: 'which'}),
               B(420, 440, 1180, 50, [
                 {label: 'food only', low: 12, value: 19, valueLabel: '12–19 h', at: 'counted', color: '#d9a441'},
                 {label: 'all work counted', low: 40, value: 44, valueLabel: '40–44 h', at: 'forty', color: '#b5562c'},
@@ -628,7 +631,8 @@ export const chapters: Chapter[] = [
               T('Polly Wiessner · 1970s', 760, 170, {at: 'Polly', size: 54}),
               D('M 520 280 L 1000 280 L 1000 900 L 520 900 Z', {at: 'notes', width: 6, dur: 1}),
               D('M 570 380 L 950 380 M 570 460 L 950 460 M 570 540 L 900 540 M 570 620 L 950 620 M 570 700 L 860 700 M 570 780 L 930 780', {at: 'conversations', width: 4, stroke: '#8a7660', dur: 1.4}),
-              I('char_story', 1440, 620, 440, {at: 'conversations', anim: 'rise'}),
+              I('person_wiessner', 1440, 600, 440, {at: 'Wiessner', anim: 'rise'}),
+              T('Polly Wiessner · anthropologist', 1440, 880, {at: 'Wiessner', size: 40}),
             ],
           }),
           s("During the day, about a third of the talk was complaints and criticism, often about someone who wasn't sharing or who was acting too proud.", {
@@ -706,7 +710,7 @@ export const chapters: Chapter[] = [
           s('After dark, Wiessner found, the talk around the fire changed.', {
             scene: sc('ch6-b', 'night'),
             cam: [1.0, 960, 580],
-            els: [header(6, 'What happened by the fire at night?'), I('obj_fire', 960, 810, 240), I('char_story', 640, 640, 500, {at: 'talk', anim: 'rise'}), I('char_laugh', 1300, 730, 380, {at: 'fire', anim: 'rise'})],
+            els: [header(6, 'What happened by the fire at night?'), I('obj_fire', 960, 810, 240), I('char_story', 640, 640, 500, {at: 'talk', anim: 'rise'}), I('char_laugh', 1300, 730, 380, {at: 'fire', anim: 'rise'}), I('person_wiessner', 1700, 760, 300, {at: 'Wiessner', anim: 'rise'}), T('Polly Wiessner', 1700, 950, {at: 'Wiessner', size: 38})],
           }),
           s('More than eighty percent of the night conversations she noted were stories.', {
             scene: sc('ch6-c', 'night'),
@@ -733,6 +737,8 @@ export const chapters: Chapter[] = [
             els: [
               G('M 420 330 Q 700 160 960 220 Q 1240 160 1500 320', {at: 'picture', dur: 2.4, trail: true}),
               T('who is related to whom · who lives where', 960, 120, {at: 'related', size: 44, color: '#f3e7cf'}),
+              I('person_wiessner', 1730, 760, 300, {at: 'Wiessner', anim: 'rise'}),
+              T('Polly Wiessner', 1730, 950, {at: 'Wiessner', size: 38, color: '#f3e7cf'}),
             ],
           }),
           s('There was singing and dancing too.', {
@@ -885,6 +891,8 @@ export const chapters: Chapter[] = [
               I('obj_necklace', 1360, 360, 160, {at: 'things', anim: 'grow'}),
               I('obj_bow', 1360, 580, 150, {at: 'owned', anim: 'grow'}),
               I('obj_obsidian', 1360, 790, 110, {at: 'gifts', anim: 'grow'}),
+              I('person_wiessner', 1680, 580, 380, {at: 'Wiessner', anim: 'rise'}),
+              T('Polly Wiessner', 1680, 830, {at: 'Wiessner', size: 38}),
             ],
           }),
         ],
@@ -974,6 +982,9 @@ export const chapters: Chapter[] = [
             els: [
               T('a 2022 study', 520, 170, {at: 'twenty', size: 52}),
               C(1500, 520, 300, {at: 'fifteen', size: 60, suffix: '+ beads', dur: 1.4}),
+              I('person_miller', 340, 640, 330, {at: 'researchers', anim: 'rise', out: 'Between'}),
+              I('person_wang', 680, 640, 330, {at: 'researchers', anim: 'rise', out: 'Between'}),
+              T('Jennifer Miller & Yiming Wang', 510, 860, {at: 'researchers', size: 40, out: 'Between'}),
               // simplified outline of Africa (east + south)
               D('M 980 140 C 1120 150 1230 210 1300 300 C 1380 330 1460 360 1500 420 C 1430 520 1380 600 1350 700 C 1320 800 1270 890 1190 960 C 1120 1010 1050 1000 1020 940 C 990 860 1000 780 960 700 C 920 620 870 580 820 520 C 760 470 700 420 720 340 C 760 240 860 160 980 140 Z', {at: 'Africa', width: 6, dur: 2, stroke: '#7a6a58'}),
             ],

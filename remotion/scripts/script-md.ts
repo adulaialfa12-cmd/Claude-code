@@ -15,6 +15,8 @@ const names: Record<string, string> = {
   obj_honeyguide: 'honeyguide bird', obj_tubers: 'tubers', obj_bow: 'bow and arrows', obj_baobab: 'baobab fruit', obj_coin: 'Lydian coin',
   obj_tablet: 'clay tablet', obj_scale: 'balance scale', obj_hut: 'grass hut', obj_grainjar: 'grain jar', obj_antelope: 'antelope', obj_tree: 'acacia tree',
   obj_skull: 'fossil skull', obj_ochre: 'red ochre',
+  person_humphrey: 'Caroline Humphrey (1985, at her desk)', person_lee: 'Richard Lee (1960s fieldwork, notebook)', person_sahlins: 'Marshall Sahlins (1960s, typewriter)',
+  person_wiessner: 'Polly Wiessner (1970s fieldwork, notebook)', person_miller: 'Jennifer Miller (2022 bead study)', person_wang: 'Yiming Wang (2022 bead study)',
 };
 const bgName: Record<string, string> = {savanna: 'savanna, daytime', dawn: 'savanna at dawn', dusk: 'savanna at dusk', night: 'camp at night', paper: 'paper page', dry: 'dry season', fields: 'early fields'};
 
