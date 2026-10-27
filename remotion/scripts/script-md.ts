@@ -17,6 +17,13 @@ const names: Record<string, string> = {
   obj_skull: 'fossil skull', obj_ochre: 'red ochre',
   person_humphrey: 'Caroline Humphrey (1985, at her desk)', person_lee: 'Richard Lee (1960s fieldwork, notebook)', person_sahlins: 'Marshall Sahlins (1960s, typewriter)',
   person_wiessner: 'Polly Wiessner (1970s fieldwork, notebook)', person_miller: 'Jennifer Miller (2022 bead study)', person_wang: 'Yiming Wang (2022 bead study)',
+  host_wave: 'host waves', host_point: 'host points and explains', host_count: 'host counts on fingers', host_surprised: 'host looks surprised', host_shrug: 'host shrugs (uncertain/debated)',
+  char_archaeologist: 'archaeologist brushing a find', char_researcher: 'field researcher with clipboard and watch', char_lydian: 'Lydian craftsman stamping a coin',
+  char_meso_tooth: 'Mesopotamian man holding his sore jaw', char_meso_payer: 'Mesopotamian man paying 2 lumps of silver', char_meso_worker: 'Mesopotamian worker carrying barley',
+  char_meso_merchant: 'Mesopotamian merchant with donkey', char_scholars: 'historian/economist making a point', char_agta_forager: 'Agta spear-fisher (Philippines)',
+  char_agta_farmer: 'Agta farmer with hoe (Philippines)', char_grandmother: 'grandmother holding baby', char_sister: 'older sister carrying baby',
+  char_whistle: 'honey hunter whistling to the bird', char_tired_hunter: 'tired hunter, empty-handed', char_stingy: 'stingy forager hiding meat',
+  char_complain: 'neighbour complaining, arms crossed', char_dance: 'forager dancing',
 };
 const bgName: Record<string, string> = {savanna: 'savanna, daytime', dawn: 'savanna at dawn', dusk: 'savanna at dusk', night: 'camp at night', paper: 'paper page', dry: 'dry season', fields: 'early fields'};
 

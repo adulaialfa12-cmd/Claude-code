@@ -271,6 +271,160 @@
       "represents": "researcher Yiming Wang (2022 bead study)",
       "resolution": "2k",
       "prompt": "a round-headed stick-figure person with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a plain green work shirt, standing and looking at a tiny white bead through a hand magnifying glass, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "host_wave",
+      "kind": "char",
+      "represents": "host",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, smiling warmly and waving hello with one hand, full body, front view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "host_point",
+      "kind": "char",
+      "represents": "host",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, friendly expression, pointing to the side with one arm stretched out as if explaining something, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "host_count",
+      "kind": "char",
+      "represents": "host",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, counting on raised fingers of one hand, thoughtful expression, full body, front view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "host_surprised",
+      "kind": "char",
+      "represents": "host",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, surprised expression with wide round eyes and open mouth, both hands raised beside the face, full body, front view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "host_shrug",
+      "kind": "char",
+      "represents": "host",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, shrugging with both palms turned up and a small uncertain smile, full body, front view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_archaeologist",
+      "kind": "char",
+      "represents": "archaeologists (modern)",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure archaeologist with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a khaki field shirt, trousers, and a wide-brim sun hat, kneeling and gently brushing soil off a small find with a soft brush, a trowel beside the knee, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_researcher",
+      "kind": "char",
+      "represents": "field researchers (modern)",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure field researcher with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a plain light-blue shirt and trousers, standing and writing on a clipboard while glancing at a wristwatch, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_lydian",
+      "kind": "char",
+      "represents": "Lydian coin-maker, about 600 BCE",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure ancient Lydian craftsman with a plain white round face, two dot eyes, short curly dark-brown hair and a short beard, thin black stick arms and legs, wearing a simple knee-length off-white wool tunic with a belt and sandals, striking a small metal punch with a hammer onto a little lump of metal resting on a small anvil, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_meso_tooth",
+      "kind": "char",
+      "represents": "Mesopotamian man who lost a tooth, about 2100 BCE",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure ancient Mesopotamian man with a plain white round face, two dot eyes, dark hair and a long dark beard, thin black stick arms and legs, wearing a fringed wool kilt wrapped at the waist, holding one hand against his cheek with a pained expression, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_meso_payer",
+      "kind": "char",
+      "represents": "Mesopotamian man paying a fine in silver, about 2100 BCE",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure ancient Mesopotamian man with a plain white round face, two dot eyes, dark hair and a short dark beard, thin black stick arms and legs, wearing a fringed wool kilt wrapped at the waist, holding out two small lumps of silver on an open palm with a sheepish expression, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_meso_worker",
+      "kind": "char",
+      "represents": "Mesopotamian worker, about 3000 BCE",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure ancient Mesopotamian worker with a plain white round face, two dot eyes, short dark hair, thin black stick arms and legs, wearing a plain wool wrap skirt, bare-chested, walking and carrying a woven basket full of barley on one shoulder, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_meso_merchant",
+      "kind": "char",
+      "represents": "Mesopotamian merchant leading a donkey",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure ancient Mesopotamian merchant with a plain white round face, two dot eyes, dark hair and a dark beard, thin black stick arms and legs, wearing a long fringed wool robe, walking and leading a small grey donkey loaded with two cloth bags, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_scholars",
+      "kind": "char",
+      "represents": "historians and economists (modern)",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure modern scholar with a plain white round face, two dot eyes, short dark-brown hair, thin black stick arms and legs, wearing a cardigan over a shirt, holding an open book in one hand and raising one finger as if making a point in a friendly debate, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_agta_forager",
+      "kind": "char",
+      "represents": "Agta forager, Philippines",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure Agta man from the Philippines with a plain white round face, two dot eyes, short curly black hair, thin black stick arms and legs, wearing a red cloth loincloth, standing in shallow river water holding a long thin fishing spear, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_agta_farmer",
+      "kind": "char",
+      "represents": "Agta farmer, Philippines",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure Agta woman from the Philippines with a plain white round face, two dot eyes, short curly black hair, thin black stick arms and legs, wearing a simple wrap skirt and a short-sleeved shirt, working a small field with a short wooden hoe beside young green plants, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_grandmother",
+      "kind": "char",
+      "represents": "forager grandmother",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure elderly forager grandmother with a plain white round face, two dot eyes, short grey hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and a white bead necklace, smiling and gently rocking a small swaddled baby in her arms, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_sister",
+      "kind": "char",
+      "represents": "older sister carrying a baby",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager girl about ten years old with a plain white round face, two dot eyes, shoulder-length dark-brown hair, thin black stick arms and legs, wearing a small tan leather hide wrap, carrying a small baby on her hip and smiling, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_whistle",
+      "kind": "char",
+      "represents": "Hadza honey hunter whistling",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, whistling with fingers near the mouth and looking up at the sky, a small axe tucked in the belt, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_tired_hunter",
+      "kind": "char",
+      "represents": "hunter coming home empty-handed",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, walking slowly home with a bow over the shoulder and empty hands, tired disappointed face, shoulders slumped, full body, side view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_stingy",
+      "kind": "char",
+      "represents": "stingy forager hiding meat",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, hugging a big leg of meat tightly to the chest and glancing sideways with a guilty expression, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_complain",
+      "kind": "char",
+      "represents": "forager complaining",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager woman with a plain white round face, two dot eyes, shoulder-length messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, standing with arms crossed, frowning and complaining with mouth open, full body, three-quarter view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
+    },
+    {
+      "id": "char_dance",
+      "kind": "char",
+      "represents": "forager dancing at night",
+      "resolution": "2k",
+      "prompt": "a round-headed stick-figure forager with a plain white round face, two dot eyes, short messy dark-brown hair, thin black stick arms and legs, wearing a simple tan leather hide wrap and one small red bead on a cord around the neck, dancing happily with both arms raised and one knee lifted, eyes closed with joy, full body, front view. Lots of empty space around it, nothing touching the edges. Hand-drawn 2D explainer cartoon, thick slightly wobbly black marker outlines, flat fills in muted earthy colors (sandy tan, warm brown, pale sky blue, soft orange), no gradients and no shading, round white-faced stick-figure people with simple dot eyes, light and friendly mood. Plain white background, no text, no labels, no numbers, no arrows, no shadows, no frame."
     }
   ]
 }

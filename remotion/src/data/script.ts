@@ -49,7 +49,7 @@ export const chapters: Chapter[] = [
           s('That means for more than ninety-eight percent of human history, nobody had any money at all.', {
             scene: sc('intro-b', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('host_surprised', 200, 830, 340, {anim: 'rise', at: 'ninety-eight', out: 'next'}), 
               D('M 160 540 L 1760 540', {width: 26, stroke: '#c9b48f', dur: 1.6}),
               D('M 1733 540 L 1760 540', {at: 'percent', width: 26, stroke: '#d4a017', dur: 0.4}),
               T('300,000 years ago', 260, 620, {size: 40, color: '#5b4632'}),
@@ -60,7 +60,7 @@ export const chapters: Chapter[] = [
           }),
           s('No coins.', {
             cam: [1.08, 960, 720],
-            els: [I('obj_coin', 560, 820, 170, {at: 0}), T('no coins', 560, 960, {at: 0.2, size: 48})],
+            els: [I('host_shrug', 200, 830, 340, {anim: 'rise', at: 0}), I('obj_coin', 560, 820, 170, {at: 0}), T('no coins', 560, 960, {at: 0.2, size: 48})],
           }),
           s('No wages.', {els: [I('obj_tablet', 960, 820, 180, {at: 0}), T('no wages', 960, 960, {at: 0.2, size: 48})]}),
           s('No prices.', {els: [I('obj_scale', 1360, 820, 190, {at: 0}), T('no prices', 1360, 960, {at: 0.2, size: 48})]}),
@@ -109,17 +109,17 @@ export const chapters: Chapter[] = [
           s("Let's start with the timeline.", {
             scene: sc('ch1-a', 'paper'),
             cam: [1.0, 960, 540],
-            els: [header(1, 'How long did we live without money?'), D('M 200 640 L 1720 640', {width: 10, stroke: '#3a2c1e', dur: 1.8, at: 'timeline'})],
+            els: [I('host_point', 1700, 860, 340, {anim: 'rise', at: 'timeline', out: 'next'}), header(1, 'How long did we live without money?'), D('M 200 640 L 1720 640', {width: 10, stroke: '#3a2c1e', dur: 1.8, at: 'timeline'})],
           }),
           s('The oldest known fossils of our species come from a site in Morocco called Jebel Irhoud.', {
             cam: [1.3, 520, 480],
-            els: [I('obj_skull', 420, 440, 260, {at: 'fossils', anim: 'grow'}), T('Jebel Irhoud, Morocco', 420, 270, {at: 'Jebel', size: 46})],
+            els: [I('char_archaeologist', 760, 470, 300, {anim: 'rise', at: 'fossils'}), I('obj_skull', 420, 440, 260, {at: 'fossils', anim: 'grow'}), T('Jebel Irhoud, Morocco', 420, 270, {at: 'Jebel', size: 46})],
           }),
           s("They're about three hundred thousand years old.", {
             cam: [1.04, 820, 580],
-            els: [C(300000, 420, 730, {at: 'three', size: 56, suffix: ' years ago', dur: 1.6}), G('M 200 640 L 1720 640', {at: 'three', dur: 2.6, trail: false})],
+            els: [I('host_count', 1700, 860, 340, {anim: 'rise', at: 'three', out: 'next'}), C(300000, 420, 730, {at: 'three', size: 56, suffix: ' years ago', dur: 1.6}), G('M 200 640 L 1720 640', {at: 'three', dur: 2.6, trail: false})],
           }),
-          s("Now let's look for money.", {cam: [1.25, 1450, 600], els: [M(1700, 640, 1420, 360, 160, 8, {at: 'money'})]}),
+          s("Now let's look for money.", {cam: [1.25, 1450, 600], els: [I('host_point', 1700, 860, 340, {anim: 'rise', at: 'money'}), M(1700, 640, 1420, 360, 160, 8, {at: 'money'})]}),
           s('About four thousand one hundred years ago, in Mesopotamia, a law code was already setting fines in silver.', {
             scene: sc('ch1-b', 'paper'),
             cam: [1.0, 960, 540],
@@ -131,7 +131,7 @@ export const chapters: Chapter[] = [
           }),
           s("Knock out another man's tooth, and you owed two shekels of silver.", {
             cam: [1.15, 820, 570],
-            els: [T('a knocked-out tooth = 2 shekels of silver', 760, 860, {at: 'two', size: 50})],
+            els: [I('char_meso_tooth', 230, 620, 360, {anim: 'rise', at: 'tooth'}), I('char_meso_payer', 1050, 640, 340, {anim: 'rise', at: 'owed'}), T('a knocked-out tooth = 2 shekels of silver', 760, 860, {at: 'two', size: 50})],
           }),
           s('But a shekel back then was a weight, not a coin.', {
             cam: [1.0, 1100, 560],
@@ -153,20 +153,20 @@ export const chapters: Chapter[] = [
           s('Real coins came much later.', {
             scene: sc('ch1-c', 'paper'),
             cam: [1.0, 960, 540],
-            els: [I('obj_coin', 960, 520, 400, {anim: 'grow', at: 'coins'})],
+            els: [I('host_point', 1680, 860, 300, {anim: 'rise', at: 'coins', out: 'next'}), I('obj_coin', 960, 520, 400, {anim: 'grow', at: 'coins'})],
           }),
           s('They appeared in Lydia, in what is now western Turkey, about two thousand six hundred years ago.', {
             cam: [1.08, 960, 560],
-            els: [T('Lydia (western Turkey)', 960, 150, {at: 'Lydia', size: 58}), C(2600, 960, 860, {at: 'two', size: 64, suffix: ' years ago', dur: 1.5})],
+            els: [I('char_lydian', 380, 620, 420, {anim: 'rise', at: 'Lydia'}), T('Lydia (western Turkey)', 960, 150, {at: 'Lydia', size: 58}), C(2600, 960, 860, {at: 'two', size: 64, suffix: ' years ago', dur: 1.5})],
           }),
           s("They were small lumps of electrum, a natural mix of gold and silver, stamped with a lion's head.", {
             cam: [1.0, 1100, 520],
-            els: [T('electrum = gold + silver', 420, 520, {at: 'electrum', size: 48, maxW: 420}), M(960, 500, 1520, 400, 210, 2.0, {at: 'stamped'})],
+            els: [T('electrum = gold + silver', 960, 975, {at: 'electrum', size: 44}), M(960, 500, 1520, 400, 210, 2.0, {at: 'stamped'})],
           }),
           s('Now, squeeze all of human history into one day.', {
             scene: sc('ch1-d', 'paper'),
             cam: [0.96, 960, 560],
-            els: [
+            els: [I('host_point', 1720, 820, 360, {anim: 'rise', at: 'squeeze', out: 'next'}), 
               T('300,000 years squeezed into 1 day', 960, 110, {at: 'squeeze', size: 54}),
               K(1150, 590, 380, [
                 {min: 20, label: 'silver prices: 20 min to midnight', at: 'twenty', ly: 300},
@@ -174,11 +174,11 @@ export const chapters: Chapter[] = [
               ], {at: 'day'}),
             ],
           }),
-          s('Silver prices show up about twenty minutes before midnight.', {cam: [1.25, 900, 360]}),
-          s('Coins show up about twelve minutes before midnight.', {cam: [1.35, 980, 300]}),
+          s('Silver prices show up about twenty minutes before midnight.', {cam: [1.25, 900, 360], els: [I('host_count', 1720, 820, 360, {anim: 'rise', at: 'twenty', out: 'next'})]}),
+          s('Coins show up about twelve minutes before midnight.', {cam: [1.35, 980, 300], els: [I('host_surprised', 1720, 820, 360, {anim: 'rise', at: 'twelve', out: 'next'})]}),
           s('Everything else, the whole long day, happened without a single price tag.', {
             cam: [0.96, 960, 560],
-            els: [G(ring(1150, 590, 380, 380), {at: 'Everything', dur: 4, trail: true})],
+            els: [I('host_point', 1720, 820, 360, {anim: 'rise', at: 'Everything'}), G(ring(1150, 590, 380, 380), {at: 'Everything', dur: 4, trail: true})],
           }),
           s('So how did people get what they needed?', {
             scene: sc('ch1-e', 'savanna'),
@@ -199,7 +199,7 @@ export const chapters: Chapter[] = [
       {
         id: 'p05',
         sentences: [
-          s("Here's the story from the textbooks.", {scene: sc('ch2-a', 'savanna'), cam: [1.0, 960, 540], els: [header(2, 'Did they really barter?')]}),
+          s("Here's the story from the textbooks.", {scene: sc('ch2-a', 'savanna'), cam: [1.0, 960, 540], els: [I('host_point', 960, 640, 500, {anim: 'rise', at: 0.2, out: 'next'}), header(2, 'Did they really barter?')]}),
           s('One person has extra grain.', {
             cam: [1.15, 640, 580],
             els: [I('char_farmer', 480, 640, 540, {at: 'One', anim: 'rise'}), I('obj_grainjar', 780, 810, 200, {at: 'grain'})],
@@ -217,7 +217,7 @@ export const chapters: Chapter[] = [
           s('The problem is, nobody has ever found a society that actually worked this way.', {
             scene: sc('ch2-b', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('host_shrug', 960, 560, 460, {anim: 'rise', at: 'nobody'}), 
               G('M 200 300 L 600 700 L 1000 300 L 1400 700 L 1750 300', {at: 'found', dur: 2.6, trail: true}),
               T('no society found that ran on barter', 960, 880, {at: 'nobody', size: 58}),
             ],
@@ -323,19 +323,19 @@ export const chapters: Chapter[] = [
       {
         id: 'p07',
         sentences: [
-          s("Here's the tricky part.", {scene: sc('ch3-a', 'paper'), cam: [1.0, 960, 540], els: [header(3, 'What did a normal day look like?')]}),
+          s("Here's the tricky part.", {scene: sc('ch3-a', 'paper'), cam: [1.0, 960, 540], els: [I('host_point', 1500, 640, 460, {anim: 'rise', at: 0.1, out: 'nobody'}), header(3, 'What did a normal day look like?')]}),
           s('For almost all of this time, nobody wrote anything down.', {
             cam: [1.15, 960, 540],
-            els: [D('M 800 300 L 1120 300 L 1120 760 L 800 760 Z', {at: 'wrote', width: 6, dur: 1}), T('no diaries', 960, 860, {at: 'nobody', size: 52})],
+            els: [I('host_shrug', 1500, 640, 460, {anim: 'rise', at: 'nobody'}), D('M 800 300 L 1120 300 L 1120 760 L 800 760 Z', {at: 'wrote', width: 6, dur: 1}), T('no diaries', 960, 860, {at: 'nobody', size: 52})],
           }),
           s('So scientists use two kinds of clues.', {
             scene: sc('ch3-b', 'paper'),
             cam: [1.0, 960, 540],
-            els: [D('M 960 200 L 960 980', {at: 'two', width: 4, stroke: '#8a7660', dur: 1}), T('clue 1: what they left', 500, 180, {at: 'two', size: 46}), T('clue 2: living foragers', 1420, 180, {at: 'clues', size: 46})],
+            els: [I('host_count', 1440, 600, 400, {anim: 'rise', at: 'two', out: 'second'}), D('M 960 200 L 960 980', {at: 'two', width: 4, stroke: '#8a7660', dur: 1}), T('clue 1: what they left', 500, 180, {at: 'two', size: 46}), T('clue 2: living foragers', 1420, 180, {at: 'clues', size: 46})],
           }),
           s('The first is what people left behind, like tools, bones, hearths and beads.', {
             cam: [1.25, 520, 620],
-            els: [
+            els: [I('char_archaeologist', 830, 600, 240, {anim: 'rise', at: 'left'}), 
               I('obj_obsidian', 370, 480, 160, {at: 'tools', anim: 'grow'}),
               I('obj_skull', 650, 480, 170, {at: 'bones', anim: 'grow'}),
               I('obj_fire', 370, 760, 170, {at: 'hearths', anim: 'grow'}),
@@ -406,7 +406,7 @@ export const chapters: Chapter[] = [
             cam: [1.0, 900, 560],
             els: [
               I('obj_tree', 1680, 470, 560, {depth: 0.9}),
-              I('char_bow', 760, 640, 520, {at: 'Men', drift: [18, 0], anim: 'rise', out: 'People'}),
+              I('char_bow', 760, 640, 520, {at: 'Men', drift: [18, 0], anim: 'rise', out: 'whistle'}),
               I('obj_bow', 1280, 830, 180, {at: 'bows', anim: 'grow', out: 'next'}),
             ],
           }),
@@ -416,7 +416,7 @@ export const chapters: Chapter[] = [
           }),
           s("Hadza hunters whistle to it, and the bird leads them to a wild bees' nest.", {
             cam: [1.05, 1350, 420],
-            els: [G('M 1220 300 C 1400 180 1560 420 1700 330', {at: 'leads', dur: 2, trail: true}), I('obj_honeycomb', 1690, 330, 110, {at: 'nest', anim: 'grow'})],
+            els: [I('char_whistle', 900, 640, 480, {anim: 'rise', at: 'whistle', out: 'people'}), G('M 1220 300 C 1400 180 1560 420 1700 330', {at: 'leads', dur: 2, trail: true}), I('obj_honeycomb', 1690, 330, 110, {at: 'nest', anim: 'grow'})],
           }),
           s('The people get the honey, and the bird gets the wax.', {
             cam: [1.0, 960, 540],
@@ -429,7 +429,7 @@ export const chapters: Chapter[] = [
           }),
           s('Researchers who followed Hadza kids found that some gathered more food in a day than an adult needs, mostly fruit near camp.', {
             cam: [1.0, 960, 560],
-            els: [
+            els: [I('char_researcher', 400, 700, 380, {anim: 'rise', at: 'Researchers'}), 
               I('obj_baobab', 1150, 840, 140, {at: 'gathered', anim: 'grow'}),
               I('obj_baobab', 1280, 860, 140, {at: 'more', anim: 'grow'}),
               I('obj_baobab', 1215, 760, 140, {at: 'day', anim: 'grow'}),
@@ -479,9 +479,9 @@ export const chapters: Chapter[] = [
           s('That idea became famous.', {
             scene: sc('ch4-c', 'paper'),
             cam: [1.0, 960, 540],
-            els: [T('the original affluent society', 960, 170, {size: 60}), G('M 560 230 L 1360 230', {at: 'famous', dur: 1.2, trail: true})],
+            els: [I('host_point', 960, 640, 420, {anim: 'rise', at: 'famous', out: 'debated'}), T('the original affluent society', 960, 170, {size: 60}), G('M 560 230 L 1360 230', {at: 'famous', dur: 1.2, trail: true})],
           }),
-          s("It's also debated.", {els: [T('debated', 1560, 280, {at: 'debated', size: 56, rot: -8, color: '#9b3b2a'})]}),
+          s("It's also debated.", {els: [I('host_shrug', 960, 640, 420, {anim: 'rise', at: 'debated', out: 'When'}), T('debated', 1560, 280, {at: 'debated', size: 56, rot: -8, color: '#9b3b2a'})]}),
           s('When Lee later counted the other work too, like making tools, cracking nuts and keeping camp, the total rose to about forty to forty-four hours a week.', {
             cam: [1.0, 960, 580],
             els: [
@@ -504,15 +504,15 @@ export const chapters: Chapter[] = [
             els: [T('what counts as work?', 960, 980, {at: 'definitions', size: 46, color: '#7a6a58'})],
           }),
           s('So which is it?', {cam: [0.95, 960, 560], els: [I('char_think', 1700, 830, 300, {at: 'which', anim: 'rise'})]}),
-          s('A newer study helps.', {scene: sc('ch4-d', 'paper'), cam: [1.0, 960, 540], els: [T('a newer study', 960, 160, {at: 'newer', size: 58})]}),
+          s('A newer study helps.', {scene: sc('ch4-d', 'paper'), cam: [1.0, 960, 540], els: [I('char_researcher', 960, 640, 460, {anim: 'rise', at: 'study', out: 'next'}), T('a newer study', 960, 160, {at: 'newer', size: 58})]}),
           s('In the Philippines, researchers followed three hundred and fifty-nine Agta people through the day.', {
             cam: [1.05, 960, 560],
             els: [
               T('Agta · the Philippines', 960, 250, {at: 'Philippines', size: 50}),
               C(359, 960, 420, {at: 'three', size: 96, suffix: ' people', dur: 1.4}),
-              I('char_walk', 620, 760, 340, {at: 'Agta', anim: 'rise'}),
-              I('char_dig', 960, 780, 300, {at: 'Agta', anim: 'rise'}),
-              I('char_child', 1300, 790, 260, {at: 'through', anim: 'rise'}),
+              I('char_agta_forager', 620, 760, 340, {at: 'Agta', anim: 'rise'}),
+              I('char_agta_farmer', 960, 780, 300, {at: 'Agta', anim: 'rise'}),
+              I('char_researcher', 1300, 760, 320, {at: 'researchers', anim: 'rise'}),
             ],
           }),
           s('Agta who mostly foraged did about twenty hours of work outside camp each week.', {
@@ -520,13 +520,13 @@ export const chapters: Chapter[] = [
             cam: [1.0, 960, 540],
             els: [
               T('work outside camp, hours per week', 960, 160, {size: 48}),
-              I('char_bow', 280, 420, 220, {at: 'foraged'}),
+              I('char_agta_forager', 280, 420, 220, {at: 'foraged'}),
               B(440, 420, 1180, 40, [{label: 'mostly foraging', value: 20, valueLabel: '≈20 h', at: 'twenty', color: '#d9a441'}]),
             ],
           }),
           s('Agta who mostly farmed did about thirty.', {
             cam: [1.1, 1000, 560],
-            els: [I('char_farmer', 280, 660, 220, {at: 'farmed'}), B(440, 660, 1180, 40, [{label: 'mostly farming', value: 30, valueLabel: '≈30 h', at: 'thirty', color: '#7f9a5a'}])],
+            els: [I('char_agta_farmer', 280, 660, 220, {at: 'farmed'}), B(440, 660, 1180, 40, [{label: 'mostly farming', value: 30, valueLabel: '≈30 h', at: 'thirty', color: '#7f9a5a'}])],
           }),
         ],
       },
@@ -552,13 +552,13 @@ export const chapters: Chapter[] = [
           s('The line between work and the rest of life was blurry.', {
             scene: sc('ch4-g', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('host_shrug', 960, 860, 300, {anim: 'rise', at: 'blurry'}), 
               T('work', 420, 540, {at: 'work', size: 70}),
               T('life', 1500, 540, {at: 'life', size: 70}),
               G('M 560 540 C 760 380 900 700 1060 540 S 1300 380 1400 540', {at: 'blurry', dur: 2.4, trail: true}),
             ],
           }),
-          s('So what filled all those other hours?', {cam: [0.94, 960, 560], els: [T('what filled the other hours?', 960, 860, {at: 'filled', size: 52})]}),
+          s('So what filled all those other hours?', {cam: [0.94, 960, 560], els: [T('what filled the other hours?', 960, 160, {at: 'filled', size: 52})]}),
         ],
       },
     ],
@@ -589,7 +589,7 @@ export const chapters: Chapter[] = [
           s('Babies were rarely alone.', {scene: sc('ch5-c', 'savanna'), cam: [1.3, 960, 520], els: [I('char_baby', 960, 650, 540, {anim: 'rise'})]}),
           s('Among the Hadza, researchers saw infants being held by grandmothers, older siblings and neighbors, not just by their mothers.', {
             cam: [1.0, 960, 560],
-            els: [
+            els: [I('char_grandmother', 360, 560, 380, {anim: 'rise', at: 'grandmothers'}), I('char_sister', 1560, 560, 380, {anim: 'rise', at: 'siblings'}), 
               G(ring(960, 560, 640, 380), {at: 'held', dur: 4, loop: true}),
               T('grandmothers', 360, 250, {at: 'grandmothers', size: 48}),
               T('older siblings', 1560, 250, {at: 'siblings', size: 48}),
@@ -642,7 +642,7 @@ export const chapters: Chapter[] = [
               T('daytime talk', 640, 180, {size: 52}),
               P(640, 560, 250, 0.34, 'complaints & criticism · 34%', {at: 'third', color: '#b5562c'}),
               T('about 1 in 3 daytime conversations', 640, 930, {at: 'criticism', size: 38, color: '#7a6a58'}),
-              I('char_carry', 1420, 620, 440, {at: 'sharing', anim: 'rise'}),
+              I('char_stingy', 1420, 620, 440, {at: 'sharing', anim: 'rise'}),
               T('not sharing?', 1420, 300, {at: 'sharing', size: 46}),
               T('too proud?', 1420, 940, {at: 'proud', size: 46}),
             ],
@@ -654,17 +654,17 @@ export const chapters: Chapter[] = [
           s('In a group with no police and no boss, that talk did a job.', {
             scene: sc('ch5-h', 'savanna'),
             cam: [1.0, 960, 560],
-            els: [I('obj_fire', 960, 830, 170), I('char_stand', 480, 640, 480, {anim: 'rise'}), I('char_think', 1440, 640, 480, {anim: 'rise', flip: true}), T('no police · no boss', 960, 140, {at: 'police', size: 54})],
+            els: [I('obj_fire', 960, 830, 170), I('char_stand', 480, 640, 480, {anim: 'rise', out: 'hear'}), I('char_think', 1440, 640, 480, {anim: 'rise', flip: true}), T('no police · no boss', 960, 140, {at: 'police', size: 54})],
           }),
           s('If you were stingy, everyone would hear about it by evening.', {
             cam: [1.05, 960, 560],
-            els: [I('char_carry', 960, 600, 400, {at: 'stingy', anim: 'rise'}), G('M 600 420 Q 760 300 880 400', {at: 'hear', dur: 1}), G('M 1320 420 Q 1160 300 1040 400', {at: 'hear', dur: 1})],
+            els: [I('char_stingy', 960, 600, 400, {at: 'stingy', anim: 'rise'}), I('char_complain', 480, 640, 480, {at: 'hear', anim: 'rise'}), G('M 600 420 Q 760 300 880 400', {at: 'hear', dur: 1}), G('M 1320 420 Q 1160 300 1040 400', {at: 'hear', dur: 1})],
           }),
           s('So daytime talk was about keeping the rules.', {cam: [0.96, 960, 540], els: [T('daytime talk = keeping the rules', 960, 1000, {at: 'rules', size: 48})]}),
           s('But something changed when the sun went down.', {
             scene: sc('ch5-i', 'dusk'),
             cam: [1.05, 960, 600],
-            els: [G('M 1300 220 Q 1600 360 1760 720', {at: 'sun', dur: 2.6, color: '#ffb35b'}), I('obj_fire', 960, 820, 220, {at: 'changed'})],
+            els: [I('char_story', 600, 640, 460, {anim: 'rise', at: 'changed'}), G('M 1300 220 Q 1600 360 1760 720', {at: 'sun', dur: 2.6, color: '#ffb35b'}), I('obj_fire', 960, 820, 220, {at: 'changed'})],
           }),
         ],
       },
@@ -680,7 +680,7 @@ export const chapters: Chapter[] = [
           s("We're about halfway now.", {
             scene: sc('ch6-a', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('host_wave', 200, 880, 300, {anim: 'rise', at: 0.1}), 
               D('M 140 560 C 400 360 600 760 960 560 S 1520 360 1780 560', {width: 6, stroke: '#8a7660', dur: 1.4}),
               G('M 140 560 C 400 360 600 760 960 560', {at: 'halfway', dur: 2, trail: true}),
               T('halfway', 960, 660, {at: 'halfway', size: 52, color: '#b5562c'}),
@@ -696,7 +696,7 @@ export const chapters: Chapter[] = [
           }),
           s('Still to come: what happened after dark, how people traded across huge distances, and what they saved instead of money.', {
             cam: [1.15, 1380, 540],
-            els: [
+            els: [I('host_point', 1790, 900, 260, {anim: 'rise', at: 'Still'}), 
               T('after dark', 1120, 760, {at: 'dark', size: 38}),
               T('trading far away', 1420, 380, {at: 'distances', size: 38}),
               T('what they saved', 1700, 700, {at: 'saved', size: 38}),
@@ -715,7 +715,7 @@ export const chapters: Chapter[] = [
           s('More than eighty percent of the night conversations she noted were stories.', {
             scene: sc('ch6-c', 'night'),
             cam: [1.0, 960, 540],
-            els: [T('night talk', 640, 190, {size: 52, color: '#f3e7cf'}), P(640, 560, 250, 0.81, 'stories · 81%', {at: 'eighty', color: '#e0a64a'}), G(ring(640, 560, 290, 290), {at: 'stories', dur: 2.4, color: '#e0a64a'})],
+            els: [I('char_story', 1700, 760, 360, {anim: 'rise', at: 'stories'}), T('night talk', 640, 190, {size: 52, color: '#f3e7cf'}), P(640, 560, 250, 0.81, 'stories · 81%', {at: 'eighty', color: '#e0a64a'}), G(ring(640, 560, 290, 290), {at: 'stories', dur: 2.4, color: '#e0a64a'})],
           }),
           s('In daylight, stories made up only about six percent.', {
             els: [T('day talk', 1300, 190, {size: 52, color: '#f3e7cf', at: 'daylight'}), P(1300, 560, 250, 0.06, 'stories · 6%', {at: 'six', color: '#e0a64a'})],
@@ -745,7 +745,7 @@ export const chapters: Chapter[] = [
             cam: [1.12, 960, 560],
             els: [
               D('M 600 420 q 25 -40 50 0 t 50 0 t 50 0 M 1260 400 q 25 -40 50 0 t 50 0 t 50 0', {at: 'singing', width: 5, stroke: '#e0a64a', dur: 1}),
-              I('char_child', 1480, 720, 300, {at: 'dancing', anim: 'rise'}),
+              I('char_dance', 1480, 720, 330, {at: 'dancing', anim: 'rise'}),
             ],
           }),
           s('And the complaints of the day mostly faded away.', {
@@ -764,7 +764,7 @@ export const chapters: Chapter[] = [
           }),
           s('A study of three groups, including the Hadza and the San, found that people stayed up about three hours after dark.', {
             cam: [1.0, 960, 480],
-            els: [
+            els: [I('char_researcher', 1650, 760, 320, {anim: 'rise', at: 'study'}), 
               D('M 300 240 L 1620 240', {at: 'study', width: 6, stroke: '#f3e7cf', dur: 1}),
               T('sunset', 300, 180, {at: 'study', size: 40, color: '#f3e7cf'}),
               T('Hadza · San · Tsimane', 960, 440, {at: 'Hadza', size: 44, color: '#f3e7cf'}),
@@ -779,7 +779,7 @@ export const chapters: Chapter[] = [
           s('Fire made all of this possible. Archaeologists see regular use of fire from at least about four hundred thousand years ago, and the earliest dates are still debated.', {
             scene: sc('ch6-f0', 'night'),
             cam: [1.15, 960, 640],
-            els: [
+            els: [I('char_archaeologist', 1550, 760, 300, {anim: 'rise', at: 'Archaeologists'}), 
               I('obj_fire', 960, 700, 380, {anim: 'grow'}),
               G(ring(960, 700, 300, 230), {at: 'Archaeologists', dur: 3, loop: true, color: '#ffb35b'}),
               C(400000, 960, 180, {at: 'four', size: 64, suffix: '+ years of regular fire use', dur: 1.6}),
@@ -818,7 +818,7 @@ export const chapters: Chapter[] = [
             tts: 'At a site in Kenya called Oh-lor-geh-sigh-lee, archaeologists found small, sharp tools made of obsidian, a black volcanic glass.',
             scene: sc('ch7-a', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('char_archaeologist', 420, 640, 380, {anim: 'rise', at: 'archaeologists'}), 
               header(7, 'How did they trade with people far away?'),
               T('Olorgesailie, Kenya', 960, 210, {at: 'Kenya', size: 54}),
               I('obj_obsidian', 960, 560, 340, {at: 'tools', anim: 'grow'}),
@@ -826,11 +826,11 @@ export const chapters: Chapter[] = [
               T('obsidian = volcanic glass', 960, 930, {at: 'archaeologists', size: 44}),
             ],
           }),
-          s('The tools are around three hundred thousand years old.', {cam: [1.05, 960, 640], els: [C(300000, 960, 880, {at: 'three', size: 60, suffix: ' years old', dur: 1.6})]}),
+          s('The tools are around three hundred thousand years old.', {cam: [1.05, 960, 640], els: [C(300000, 960, 800, {at: 'three', size: 60, suffix: ' years old', dur: 1.6})]}),
           s('And the obsidian came from at least twenty-five to fifty kilometers away.', {
             scene: sc('ch7-b', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('host_point', 1700, 820, 320, {anim: 'rise', at: 'kilometers', out: 'sure'}), 
               I('obj_hut', 480, 640, 150),
               T('the site', 480, 760, {size: 40}),
               I('obj_obsidian', 1460, 420, 120, {at: 'came', anim: 'grow'}),
@@ -850,8 +850,8 @@ export const chapters: Chapter[] = [
               G('M 1400 460 Q 1340 520 1280 600 Q 1160 640 1040 700 Q 900 760 780 820 Q 680 720 560 640', {at: 'pass', dur: 2.4}),
             ],
           }),
-          s("We can't be sure.", {els: [T("we can't be sure", 960, 980, {at: 'sure', size: 48, color: '#7a6a58'})]}),
-          s('But either way, people were reaching far beyond their own camp.', {cam: [0.86, 960, 560]}),
+          s("We can't be sure.", {els: [I('host_shrug', 1700, 820, 320, {anim: 'rise', at: 'sure', out: 'next'}), T("we can't be sure", 960, 980, {at: 'sure', size: 48, color: '#7a6a58'})]}),
+          s('But either way, people were reaching far beyond their own camp.', {cam: [0.86, 960, 560], els: [I('host_point', 1700, 820, 320, {anim: 'rise', at: 0.1})]}),
         ],
       },
       {
@@ -873,7 +873,7 @@ export const chapters: Chapter[] = [
             tts: `Hah-roh partners could live as far as two hundred kilometers apart.`,
             scene: sc('ch7-d', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('char_walk', 700, 780, 300, {anim: 'rise', at: 'partners', drift: [60, 0]}), 
               I('obj_hut', 360, 640, 170),
               I('obj_hut', 1560, 640, 170, {at: 'partners'}),
               D('M 470 600 Q 960 360 1450 600', {at: 'live', width: 5, dash: true, dur: 1.4}),
@@ -911,14 +911,14 @@ export const chapters: Chapter[] = [
               T('for months', 1640, 380, {at: 'months', size: 48}),
             ],
           }),
-          s("The gift wasn't really about the necklace.", {scene: sc('ch7-g', 'paper'), cam: [1.15, 960, 540], els: [I('obj_necklace', 960, 520, 360, {at: 'gift', anim: 'grow'})]}),
+          s("The gift wasn't really about the necklace.", {scene: sc('ch7-g', 'paper'), cam: [1.15, 960, 540], els: [I('char_gift', 420, 600, 460, {anim: 'rise', at: 'gift'}), I('obj_necklace', 960, 520, 360, {at: 'gift', anim: 'grow'})]}),
           s('It was a promise that someone, somewhere, would take you in.', {
             cam: [1.0, 960, 540],
             els: [G(ring(960, 520, 270, 270), {at: 'promise', dur: 3, loop: true}), T('a promise', 960, 880, {at: 'promise', size: 60})],
           }),
           s('Researchers have described this as a kind of insurance, spread across a whole region.', {
             cam: [0.95, 960, 540],
-            els: [T('a kind of insurance', 960, 140, {at: 'insurance', size: 56})],
+            els: [I('char_scholars', 1550, 700, 380, {anim: 'rise', at: 'Researchers'}), T('a kind of insurance', 960, 140, {at: 'insurance', size: 56})],
           }),
           s('So why were beads so often the thing people gave?', {cam: [1.3, 1100, 520], els: [M(1050, 600, 1500, 300, 160, 2.4, {at: 'beads'})]}),
         ],
@@ -935,12 +935,12 @@ export const chapters: Chapter[] = [
           s('Beads are some of the oldest signs of this kind of behavior.', {
             scene: sc('ch8-a', 'paper'),
             cam: [1.0, 960, 540],
-            els: [header(8, 'Why spend hours on beads, art and music?'), I('obj_shellbead', 960, 540, 300, {at: 'Beads', anim: 'grow'})],
+            els: [I('host_point', 380, 760, 340, {anim: 'rise', at: 'oldest', out: 'archaeologists'}), header(8, 'Why spend hours on beads, art and music?'), I('obj_shellbead', 960, 540, 300, {at: 'Beads', anim: 'grow'})],
           }),
           s('In Bizmoune Cave in Morocco, archaeologists found shell beads that are at least one hundred and forty-two thousand years old, the oldest known.', {
             tts: 'In Biz-moon Cave in Morocco, archaeologists found shell beads that are at least one hundred and forty-two thousand years old, the oldest known.',
             cam: [1.04, 960, 580],
-            els: [T('Bizmoune Cave, Morocco', 960, 200, {at: 'Cave', size: 54}), C(142000, 960, 860, {at: 'hundred', size: 60, suffix: '+ years old', dur: 1.8})],
+            els: [I('char_archaeologist', 380, 760, 340, {anim: 'rise', at: 'archaeologists'}), T('Bizmoune Cave, Morocco', 960, 200, {at: 'Cave', size: 54}), C(142000, 960, 860, {at: 'hundred', size: 60, suffix: '+ years old', dur: 1.8})],
           }),
           s('Some still had traces of red ochre.', {
             cam: [1.0, 1100, 540],
@@ -968,7 +968,7 @@ export const chapters: Chapter[] = [
           s('A whole necklace means many, many hours of careful work.', {
             scene: sc('ch8-c', 'paper'),
             cam: [1.05, 960, 540],
-            els: [I('obj_necklace', 960, 520, 420, {anim: 'grow'}), G(ring(960, 520, 230, 230), {at: 'many', dur: 3, loop: true}), T('many hours of work', 960, 880, {at: 'hours', size: 56})],
+            els: [I('char_bead', 1620, 700, 380, {anim: 'rise', at: 'careful'}), I('obj_necklace', 960, 520, 420, {anim: 'grow'}), G(ring(960, 520, 230, 230), {at: 'many', dur: 3, loop: true}), T('many hours of work', 960, 880, {at: 'hours', size: 56})],
           }),
         ],
       },
@@ -991,7 +991,7 @@ export const chapters: Chapter[] = [
           }),
           s('Between about fifty thousand and thirty-three thousand years ago, beads made three thousand kilometers apart were almost the same size and shape.', {
             cam: [1.1, 1120, 600],
-            els: [
+            els: [I('host_count', 150, 900, 240, {anim: 'rise', at: 'fifty', out: 'debated'}), 
               T('50,000–33,000 years ago', 520, 440, {at: 'fifty', size: 46}),
               I('obj_necklace', 1330, 470, 110, {at: 'beads', anim: 'grow'}),
               I('obj_necklace', 1120, 900, 110, {at: 'beads', anim: 'grow'}),
@@ -1006,18 +1006,18 @@ export const chapters: Chapter[] = [
           }),
           s('Whether the beads themselves traveled, or only the know-how, is still debated.', {
             cam: [0.96, 960, 560],
-            els: [T('beads or know-how? still debated', 520, 820, {at: 'debated', size: 42, color: '#7a6a58'})],
+            els: [I('host_shrug', 150, 900, 240, {anim: 'rise', at: 'debated'}), T('beads or know-how? still debated', 520, 820, {at: 'debated', size: 42, color: '#7a6a58'})],
           }),
         ],
       },
       {
         id: 'p22',
         sentences: [
-          s('People also made music.', {scene: sc('ch8-e', 'paper'), cam: [1.0, 960, 540], els: [IW('obj_flute', 960, 520, 900, {anim: 'grow'})]}),
+          s('People also made music.', {scene: sc('ch8-e', 'paper'), cam: [1.0, 960, 540], els: [I('char_dance', 1650, 760, 360, {anim: 'rise', at: 'music'}), IW('obj_flute', 960, 520, 900, {anim: 'grow'})]}),
           s('Flutes carved from bird bone and mammoth ivory, found in a German cave called Geissenklösterle, are around forty-two thousand years old.', {
             tts: 'Flutes carved from bird bone and mammoth ivory, found in a German cave called Geissen-klers-ter-leh, are around forty-two thousand years old.',
             cam: [1.04, 960, 560],
-            els: [
+            els: [I('char_archaeologist', 300, 760, 340, {anim: 'rise', at: 'found'}), 
               M(900, 520, 1500, 250, 150, 2.4, {at: 'carved'}),
               T('Geissenklösterle, Germany', 760, 200, {at: 'German', size: 52}),
               C(42000, 960, 860, {at: 'forty-two', size: 60, suffix: ' years old', dur: 1.4}),
@@ -1070,7 +1070,7 @@ export const chapters: Chapter[] = [
             cam: [1.0, 960, 560],
             els: [G('M 1520 760 Q 1700 520 1880 600', {at: 'given', dur: 1.4})],
           }),
-          s('Big food was rarely private.', {scene: sc('ch9-b', 'savanna'), cam: [1.15, 960, 600], els: [I('obj_antelope', 1300, 650, 280, {at: 'Big', anim: 'grow', out: 'next'})]}),
+          s('Big food was rarely private.', {scene: sc('ch9-b', 'savanna'), cam: [1.15, 960, 600], els: [I('char_bow', 700, 640, 480, {anim: 'rise', at: 'food', out: 'next'}), I('obj_antelope', 1300, 650, 280, {at: 'Big', anim: 'grow', out: 'next'})]}),
           s("Among the Hadza, when a hunter brings home a large animal, he doesn't get to control who gets the meat.", {
             cam: [1.0, 960, 560],
             els: [I('char_carry', 760, 640, 520, {at: 'hunter', anim: 'rise'}), T("the hunter doesn't decide who gets it", 960, 140, {at: 'control', size: 50})],
@@ -1105,7 +1105,7 @@ export const chapters: Chapter[] = [
           s('Even good hunters often come home with nothing for days.', {
             scene: sc('ch9-e', 'paper'),
             cam: [1.0, 960, 540],
-            els: [
+            els: [I('char_tired_hunter', 600, 860, 300, {anim: 'rise', at: 'hunters', drift: [20, 0]}), 
               D('M 180 400 L 380 400 L 380 640 L 180 640 Z M 410 400 L 610 400 L 610 640 L 410 640 Z M 640 400 L 840 400 L 840 640 L 640 640 Z M 870 400 L 1070 400 L 1070 640 L 870 640 Z M 1100 400 L 1300 400 L 1300 640 L 1100 640 Z M 1330 400 L 1530 400 L 1530 640 L 1330 640 Z M 1560 400 L 1760 400 L 1760 640 L 1560 640 Z', {at: 'Even', width: 5, dur: 1.6}),
               T('day after day...', 960, 300, {at: 'nothing', size: 50}),
               D('M 240 520 L 320 520 M 470 520 L 550 520 M 700 520 L 780 520 M 930 520 L 1010 520 M 1160 520 L 1240 520', {at: 'nothing', width: 6, stroke: '#9b3b2a', dur: 1.4}),
@@ -1135,9 +1135,9 @@ export const chapters: Chapter[] = [
           s("That's the answer to our opening question.", {
             scene: sc('ch9-g', 'paper'),
             cam: [1.0, 960, 540],
-            els: [T('what did they save instead of money?', 960, 200, {at: 'answer', size: 56})],
+            els: [I('host_point', 960, 560, 420, {anim: 'rise', at: 'answer', out: 'next'}), T('what did they save instead of money?', 960, 200, {at: 'answer', size: 56})],
           }),
-          s('Before money, people did save.', {cam: [1.05, 960, 560]}),
+          s('Before money, people did save.', {cam: [1.05, 960, 560], els: [I('host_count', 960, 560, 420, {anim: 'rise', at: 'save', out: 'favors'})]}),
           s('They saved favors, friendships and trust.', {
             els: [
               I('obj_honeycomb', 460, 520, 170, {at: 'favors', anim: 'grow'}),
@@ -1201,12 +1201,12 @@ export const chapters: Chapter[] = [
           s('Stored grain can be counted, guarded and owed.', {
             scene: sc('ch10-b', 'paper'),
             cam: [1.0, 960, 540],
-            els: [I('obj_grainjar', 960, 560, 380, {anim: 'grow'}), T('counted', 480, 360, {at: 'counted', size: 56}), T('guarded', 1440, 360, {at: 'guarded', size: 56}), T('owed', 960, 900, {at: 'owed', size: 56})],
+            els: [I('char_farmer', 1600, 700, 420, {anim: 'rise', at: 'guarded'}), I('obj_grainjar', 960, 560, 380, {anim: 'grow'}), T('counted', 480, 360, {at: 'counted', size: 56}), T('guarded', 1440, 360, {at: 'guarded', size: 56}), T('owed', 960, 900, {at: 'owed', size: 56})],
           }),
           s('Villages grew into towns, and towns into cities.', {
             scene: sc('ch10-c', 'paper'),
             cam: [1.0, 960, 560],
-            els: [
+            els: [I('char_farmer', 250, 820, 300, {anim: 'rise', at: 'Villages'}), I('char_meso_worker', 1650, 820, 300, {anim: 'rise', at: 'cities', drift: [-20, 0]}), 
               I('obj_hut', 860, 640, 130, {at: 'Villages'}),
               I('obj_hut', 1000, 660, 130, {at: 'Villages'}),
               I('obj_hut', 930, 560, 110, {at: 'grew'}),
@@ -1224,7 +1224,7 @@ export const chapters: Chapter[] = [
           s('Soon you were dealing with people you might never see again.', {
             scene: sc('ch10-d', 'savanna'),
             cam: [1.0, 960, 560],
-            els: [I('char_walk', 520, 640, 480, {drift: [20, 0], anim: 'rise'}), I('char_stand', 1400, 640, 480, {flip: true, at: 'people', anim: 'rise'}), T('strangers', 960, 150, {at: 'never', size: 56})],
+            els: [I('char_walk', 520, 640, 480, {drift: [20, 0], anim: 'rise'}), I('char_meso_merchant', 1400, 640, 480, {flip: true, at: 'people', anim: 'rise'}), T('strangers', 960, 150, {at: 'never', size: 56})],
           }),
           s("A favor only works if you'll meet that person again.", {cam: [1.05, 960, 520], els: [G(ring(960, 440, 520, 140), {at: 'favor', dur: 2.4, loop: true})]}),
           s('With strangers, you need something that keeps score on its own.', {cam: [1.15, 960, 440], els: [I('obj_coin', 960, 380, 190, {at: 'something', anim: 'grow'})]}),
@@ -1249,14 +1249,14 @@ export const chapters: Chapter[] = [
               I('obj_grainjar', 420, 900, 120, {at: 'grain'}),
               T('beer', 720, 900, {at: 'beer', size: 46}),
               I('obj_antelope', 1020, 900, 120, {at: 'animals'}),
-              I('char_stand', 1320, 900, 150, {at: 'workers'}),
+              I('char_meso_worker', 1320, 880, 170, {at: 'workers'}),
             ],
           }),
           s('Money grew up inside that world of records, debts and cities.', {
             cam: [1.0, 960, 540],
             els: [I('obj_coin', 1460, 300, 150, {at: 'Money', anim: 'grow'}), G('M 960 420 Q 1200 260 1400 300', {at: 'records', dur: 1.4})],
           }),
-          s('Exactly how it happened is still debated by historians and economists.', {els: [T('how exactly? still debated', 960, 1010, {at: 'debated', size: 42, color: '#7a6a58'})]}),
+          s('Exactly how it happened is still debated by historians and economists.', {els: [I('char_scholars', 260, 560, 300, {anim: 'rise', at: 'historians'}), T('how exactly? still debated', 960, 1010, {at: 'debated', size: 42, color: '#7a6a58'})]}),
         ],
       },
       {
@@ -1265,7 +1265,7 @@ export const chapters: Chapter[] = [
           s("So let's go back to our one-day clock.", {
             scene: sc('ch10-f', 'paper'),
             cam: [1.0, 960, 540],
-            els: [K(960, 560, 300, [{min: 20, label: 'money: the last few minutes', at: 'last', ly: 170}], {at: 'clock'})],
+            els: [I('host_point', 1700, 860, 300, {anim: 'rise', at: 'clock', out: 'whole'}), K(960, 560, 300, [{min: 20, label: 'money: the last few minutes', at: 'last', ly: 170}], {at: 'clock'})],
           }),
           s("For almost the whole day, people woke up, looked for food, fixed their tools, held each other's babies, complained about the neighbor who didn't share, and told stories by the fire.", {
             cam: [0.95, 960, 560],
@@ -1295,7 +1295,7 @@ export const chapters: Chapter[] = [
               G('M 600 460 L 960 700 L 1330 560', {at: 'people', dur: 1.6, trail: true}),
             ],
           }),
-          s('In a way, we still do.', {cam: [0.9, 960, 560]}),
+          s('In a way, we still do.', {cam: [0.9, 960, 560], els: [I('host_wave', 960, 520, 300, {anim: 'rise', at: 'way'})]}),
           s('Money just changed how we keep score.', {
             cam: [0.84, 960, 540],
             els: [I('obj_coin', 960, 250, 110, {at: 'Money', anim: 'grow'})],

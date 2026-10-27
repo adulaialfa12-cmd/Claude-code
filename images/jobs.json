@@ -42,5 +42,17 @@
  "person_sahlins": "7ae1c447-0786-4018-b6c3-89b341bd4dc3",
  "person_wiessner": "bdbaabb2-4987-4ea3-8852-8093e24e8be7",
  "person_miller": "243d7ad1-c2ef-44e0-a6f2-30cb93a5593d",
- "person_wang": "dc4d23f3-f625-45f0-8c84-14b8277e4f32"
+ "person_wang": "dc4d23f3-f625-45f0-8c84-14b8277e4f32",
+ "host_wave": "480b6905-3a98-46ce-aa47-1e10a6aeb37b",
+ "host_point": "789f302b-7940-472d-8842-9d427e8a21da",
+ "host_count": "5811e4aa-0cf2-45eb-b92f-7558505cc647",
+ "host_surprised": "447c156d-4a28-4e6a-99d1-3c951e7a3273",
+ "host_shrug": "e22089ce-40be-45ce-a2b4-0ce5c1254c08",
+ "char_archaeologist": "3a94a9a3-2193-4706-a4cd-419881c3fc47",
+ "char_researcher": "effc3bb7-5434-4c70-8d50-f8f00b4f3e31",
+ "char_lydian": "f51d1c20-ffcb-49f1-a2c2-338c4ca41b49",
+ "char_meso_tooth": "3a0ad871-6f46-4190-a8b1-0a626d2c8d9f",
+ "char_meso_payer": "5fe1abe5-be50-4488-853a-e064f06f7454",
+ "char_meso_worker": "ff688934-a64e-4c88-bf59-6144414bef98",
+ "char_meso_merchant": "6c27c2e7-4b32-4137-9d86-73c6f34fd573"
 }
