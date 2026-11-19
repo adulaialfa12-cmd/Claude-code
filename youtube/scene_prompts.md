@@ -1,4 +1,4 @@
-# Scene prompts: "Where the Middle Class Came From" (144 timestamps)
+# Scene prompts: "Where the Middle Class Came From" (140 timestamps)
 
 ## How to use
 Final prompt for each scene = STYLE PREFIX + " Scene: " + the scene line.
