@@ -18,8 +18,14 @@ out=base+"/frames"; os.makedirs(out,exist_ok=True)
 lines=[]
 for o in res:
     i=o["index"]; m,s=o["timestamp"].split(":")
-    name=f"{i:03d}_{int(m):02d}m{int(s):02d}s.png"
+    name=f"{int(m)}.{s}.png"
     url=f"https://d8j0ntlcm91z4.cloudfront.net/user_3FEZpE4GzxFiihLsBIIuupFL1fY/hf_20261119_{times[i]}_{o['job_id']}.png"
     lines.append(f"{out}/{name}\t{url}")
-open("urls.tsv","w").write("\n".join(lines))
-print(lines[0]); print(lines[-1])
+import concurrent.futures as cf
+def get(line):
+    path,url=line.split("\t")
+    r=subprocess.run(["curl","-sS","-f","-o",path,url],capture_output=True,text=True)
+    return path if r.returncode else None
+with cf.ThreadPoolExecutor(6) as ex:
+    failed=[p for p in ex.map(get,lines) if p]
+print("downloaded",len(lines)-len(failed),"of",len(lines),"failed:",failed)
