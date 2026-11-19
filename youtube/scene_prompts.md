@@ -1,0 +1,156 @@
+# Scene prompts: "Where the Middle Class Came From" (144 timestamps)
+
+## How to use
+Final prompt for each scene = STYLE PREFIX + " Scene: " + the scene line.
+Aspect ratio: 16:9 (use 1536x864 or the generator's 16:9 option). One image per timestamp.
+
+## STYLE PREFIX (paste before every scene)
+A horizontal 16:9 widescreen frame that looks like a quick, clumsy beginner drawing made in MS Paint. Plain white background with lots of empty space. Thick, wobbly, uneven black hand-drawn outlines. Stick-figure people with round heads, dot eyes, simple line bodies and very basic faces. Objects built from plain squares, circles, rectangles and arrows. Flat solid colors only (green, brown, gray, red, yellow, orange, blue). Red arrows or red question marks where helpful. Funny, amateur, childish look. Any text is 1-3 short, correctly spelled words in simple handwriting. Everything centered with space around it.
+
+## Notes on the script (fix before voiceover)
+- 6:41: "And something remarkable happened. To pay," looks garbled; likely a missing sentence.
+- 6:47: "Claudia Golden and Robert Margot" should be Claudia Goldin and Robert Margo.
+- 10:59: "By 2025 ... around 10%" - confirm the current BLS figure.
+- 3:54-4:00: "golden age for laborers in the century" is missing a word (probably "15th century").
+
+## Scenes
+- 0:00 | One stick figure looking at a huge empty gray field, big red question mark, label "NO MIDDLE".
+- 0:05 | Tall pyramid of three layers: tiny top block, tiny middle block, huge bottom block; red arrow pointing at the tiny middle.
+- 0:12 | Small stick lord with a yellow crown standing on a big green hill labeled "LAND"; row of tiny stick workers below.
+- 0:16 | Stick figure scratching head, big red "?" above, a simple calendar page reading "1950".
+- 0:23 | Happy stick family waving in front of a house, a car, a diploma and a coin bag, all drawn as simple shapes.
+- 0:30 | Stick figure with a surprised face next to a red exclamation mark and a plain sign reading "NOT PLANNED".
+- 0:35 | A blueprint-looking rectangle with a red X through it, a confused stick figure holding a pencil.
+- 0:40 | Big gray cloud with a lightning zigzag over a tiny town of squares; stick figures looking up.
+- 0:46 | Straight road drawn left to right with five simple stops: a column (Rome), a skull (plague), a factory, a tank, a wallet.
+- 0:52 | Same road, last stop highlighted: a stick figure holding a paycheck, red arrow pointing to it.
+- 0:57 | Stick figure holding a tiny house in one hand, a big red question mark floating, label "NORMAL?".
+- 1:03 | Stick figure sitting calmly at a desk with a calculator and a coin, small smile, green checkmark.
+- 1:08 | Stick figure in a toga next to a column, sign reading "ROME 150".
+- 1:15 | Big gold coin pile and a simple Roman building (rectangle with triangle roof), sparkles drawn as little stars.
+- 1:21 | Roman figure shrugging, thought bubble with a big comfy house; red question mark.
+- 1:26 | Stick scholar at a desk with an empty scroll, shaking head; sign "NO DATA".
+- 1:32 | Scattered clue items drawn as simple shapes (coin, pot, brick, scroll) with a red magnifying glass.
+- 1:38 | Two stick historians with glasses holding a chart; tiny top slice highlighted red labeled "1.5%".
+- 1:46 | Pie chart: thin red top slice, a thin green middle slice; most of it left white.
+- 1:51 | Bar of people with a small green section labeled "6-12%", stick figure standing comfortably in it.
+- 1:58 | Big crowd of thin stick figures at the bottom edge of a cliff, labeled "BARE SURVIVAL".
+- 2:04 | Pencil drawing a wobbly guessing-shape with a red "?" and label "GUESS".
+- 2:10 | Three-layer pyramid again: thin top, thin middle, huge bottom; arrow pointing at each.
+- 2:16 | Stick philosopher with a beard and toga, holding a scroll labeled "POLITICS".
+- 2:21 | Balanced seesaw with a big green middle group in the center holding it level.
+- 2:27 | Rich stick figure and poor stick figure facing each other with angry red lines between them.
+- 2:34 | Tiny middle group squeezed between two huge groups; philosopher looking gloomy.
+- 2:41 | Seesaw tipping hard to one side, stick figures sliding off.
+- 2:48 | Stick figure at a locked door, red question mark, label "HOW?".
+- 2:55 | Small gray germ blob with a mean face, floating over a simple town.
+- 3:03 | Map-like blob of Europe in gray with many tiny crosses; label "1348".
+- 3:08 | Half of a crowd of stick figures faded to light gray, half still black.
+- 3:15 | Empty field with a farm and a landlord looking at it; no workers, a red "?".
+- 3:22 | One worker stick figure with a big gold glow and a "$$" sign; lord begging him.
+- 3:28 | Stick king pointing an angry finger, red sweat drops, crown tilted.
+- 3:35 | Paper law scroll labeled "1351" with a big red X over "MORE PAY".
+- 3:41 | Stick guard failing to catch a running worker; law scroll flapping.
+- 3:47 | Angry crowd with pitchforks (just sticks and forks), sign "1381".
+- 3:54 | Stick figure scratching head between two signs: "GOLDEN AGE?" and "NOT SO MUCH".
+- 4:00 | Little sun over a worker with a bit more coins; second panel with a smaller pile.
+- 4:07 | Population of stick figures growing; the worker's coin pile shrinking.
+- 4:13 | Stick figure pointing at his own head, label "REMEMBER", arrows in a circle.
+- 4:22 | Three-step arrow loop: "SHOCK" -> "POWER" -> "BACK TO NORMAL", red arrows.
+- 4:29 | Calendar "1900s" and a smoky factory with a chimney.
+- 4:36 | Stick economists with a stack of tax papers, glasses on, labeled "TAX RECORDS".
+- 4:42 | Pie chart: top 10% slice big in red; label "10%".
+- 4:48 | Three little flags for Britain, France, Germany (just colored rectangles) over the red slice "45-50%".
+- 4:55 | USA flag-ish rectangle with a slightly smaller red slice, label "40%".
+- 5:03 | Fancy stick people in top hats on a balcony, tiny workers below; label "BELLE EPOQUE".
+- 5:09 | Stick man in a hat holding a sign "JAN 1914" with a big red exclamation mark.
+- 5:15 | Same stick man holding a big "$5" coin and a clock reading 8.
+- 5:21 | Two coin stacks side by side: small "$2.34" and about double "$5".
+- 5:30 | Tired stick workers at a simple assembly line (conveyor belt of boxes), sweat drops.
+- 5:36 | Revolving door with workers streaming out; sign "380% QUIT".
+- 5:45 | Scale: pile of coins on one side outweighs a pile of new-hire forms on the other.
+- 5:49 | Stick inspector with a magnifying glass peeking into a worker's house; red "!".
+- 5:56 | Light bulb over the stick man's head with a coin inside.
+- 6:01 | One lonely green house standing alone in an empty white space, label "EXCEPTION".
+- 6:05 | Stick figure staring at a huge dark cloud on the horizon.
+- 6:10 | Calendar "1939", plane and tank drawn as simple shapes, dark scribbled sky.
+- 6:16 | Factory with a big smokestack and gears, stick workers rushing.
+- 6:23 | Row of stick women and new workers entering the factory door, label "HELP WANTED".
+- 6:29 | Empty chairs at the factory with a "NEED WORKERS" sign, link back to the plague skull in small.
+- 6:34 | Stick official in a suit holding a clipboard labeled "WAR LABOR BOARD".
+- 6:41 | Tax chart bar shooting up tall, labeled "HIGH TAXES".
+- 6:47 | Two stick economists holding a poster "THE GREAT COMPRESSION", pressing a big spring flat.
+- 6:52 | Wage ladder with a big gap between top and bottom rungs, arrow squeezing it.
+- 6:58 | Same ladder, gap now small; calendar "1940s".
+- 7:04 | Stick figure in a classroom lifting a book, label "SCHOOLS", wage chart in the corner.
+- 7:09 | Factory door with a sign "LESS-SKILLED WANTED" and a line of workers.
+- 7:15 | Europe blob in gray with a big down arrow, the red slice shrinking.
+- 7:22 | Red slice dropping from "45-50%" to "30%", down arrow.
+- 7:28 | Title card: stick professor at a chalkboard writing "THE GREAT LEVELER".
+- 7:34 | Stick scholar with a tall stack of books and a globe, label "THOUSANDS OF YEARS".
+- 7:41 | Four stick horsemen as simple horses with a stick rider each, labeled with one word each.
+- 7:47 | Horsemen labels: "WAR" and "REVOLUTION" over two horse silhouettes.
+- 7:54 | Horsemen labels: "COLLAPSE" and "PLAGUE" over two horse silhouettes.
+- 8:01 | Stick figure holding a "FINLAND" map blob with a green down arrow, no storm cloud.
+- 8:07 | Plant growing steadily with a coin on it, labeled "GROWTH", sunny and calm.
+- 8:14 | Calm stick figure with a seesaw, the same four horsemen tiny in the background.
+- 8:20 | One house outline made of dotted lines, label "NOT AUTOMATIC".
+- 8:27 | Stick figure signing a paper at a desk labeled "1944", flag at the corner.
+- 8:33 | Big paper labeled "GI BILL" with three icons: book, hammer, house.
+- 8:38 | Row of stick veterans in caps at a school door, label "7.8 MILLION".
+- 8:44 | Veterans with diploma, others with tools; two small groups.
+- 8:52 | A pile of house keys, label "2.4 MILLION LOANS".
+- 9:00 | Two houses: first one with a small share colored, label "44%".
+- 9:07 | Same pair, bigger colored share, label "62%".
+- 9:10 | Tall green bar chart with an arrow, label "BIGGEST EVER".
+- 9:15 | Stick figure looking sad outside a locked door, red lock.
+- 9:20 | Chain of simple buildings (bank, school, office) with a hand stamping papers.
+- 9:26 | Door half-open; some stick figures walking in, others blocked by a red X.
+- 9:33 | Crowd of stick workers holding a union sign, labeled "UNION".
+- 9:39 | Three workers, one highlighted in red: "1 IN 3".
+- 9:46 | Two handshakes between a stick figure and a suit, sign "1950 DETROIT".
+- 9:52 | Contract paper with two arrows going up: "INFLATION" and "PRODUCTIVITY".
+- 9:59 | Same paper with icons: pension coin, health cross.
+- 10:05 | Happy worker stick figure with a house, a car and a sunset behind.
+- 10:13 | Stick figure scratching head, big red "?", thought bubble of the house.
+- 10:19 | Four things as simple boxes: "WAR", "LABOR SHORTAGE", "POLICY", "NO RIVALS", red arrow into a house.
+- 10:25 | Calendar flips to "1970", a pointing finger toward the future.
+- 10:31 | Arrow reversing direction, red U-turn sign.
+- 10:38 | Ladder gap growing wide again, label "1970".
+- 10:46 | Ladder gap equal to the first one, label "1940".
+- 10:53 | Pie chart red top slice growing again.
+- 10:59 | Union sign shrinking from a big crowd to a small group.
+- 11:07 | Thin gray middle stripe squeezed between left and right.
+- 11:16 | Big green circle, label "61%" and "1971".
+- 11:23 | Smaller green circle, label "51%" and "2023".
+- 11:29 | Left slice grows from "27%" to "30%".
+- 11:37 | Right slice grows from "11%" to "19%".
+- 11:46 | Stick figures splitting into two groups; arrows mostly pointing up.
+- 11:52 | Single wide road with a middle lane closing, arrows to both sides.
+- 12:00 | Stick economist shrugging, big "?" label "WHY?".
+- 12:05 | Icons in a row: globe, robot, union sign, tax form.
+- 12:12 | Four icons merging into one arrow pointing at the middle.
+- 12:19 | Stick figure at a desk looking tired, a milestone flag far away.
+- 12:25 | Same figure looking at a big old photo of parents' house, red "?".
+- 12:33 | Thermometer with a huge peak, label "RECORD SUMMER"; stick figure sweating.
+- 12:39 | Stick figure flexing, a heavy label "POWER" instead of "EFFORT".
+- 12:46 | Scarce workers as a few figures with gold stars.
+- 12:52 | Factory worker with a hammer and a union badge, house behind.
+- 12:59 | Stick figure holding a toolbox, sign "HARD TO REPLACE".
+- 13:05 | Three coin streams flowing into one person: job, side gig, savings.
+- 13:11 | Small sign "NOT ADVICE" with a stick figure shrugging.
+- 13:18 | Stick figure in the middle of two paths: "ACCIDENT" and "CHOICE".
+- 13:25 | Dark war cloud with a red "NO" over it, stick figure shaking head.
+- 13:32 | Three simple signs: "GI BILL", "SCHOOLS", "PAY RULES"; hands placing them.
+- 13:38 | Two stick figures debating, a house between them with a "?" overhead.
+- 13:45 | Big red question mark over a globe.
+- 13:51 | Montage: tiny pyramid with a thin middle.
+- 13:58 | Skull and a worker holding a coin.
+- 14:05 | Factory with a big gold pile staying on the roof.
+- 14:12 | Big green middle block, house on top, glowing.
+- 14:19 | Same block cracking with a red crack.
+- 14:24 | Stick figure sitting calmly, no red X, a small happy smile.
+- 14:31 | A long road stretching back with all the tiny past icons, stick figure at the end.
+- 14:37 | Red subscribe button and a bell drawn as simple shapes, stick figure pointing.
+- 14:43 | Speech bubble with a tiny middle-class house inside, label "COMMENTS".
+- 14:48 | Stick figure waving goodbye, label "THANKS!".
