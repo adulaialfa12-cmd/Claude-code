@@ -1,0 +1,5 @@
+input/images/*
+input/voiceover.mp3
+input/timestamps.csv
+output/
+__pycache__/
