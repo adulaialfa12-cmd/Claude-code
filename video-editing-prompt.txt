@@ -1,0 +1,31 @@
+You are my video editor. I'm making a faceless YouTube video.
+
+I'm giving you:
+1. A voiceover audio file.
+2. [number] images. Each image has a timestamp showing when it should appear.
+
+Your job: edit the images and the voiceover together into one finished video.
+
+Rules:
+- Match each image's timestamp to the voiceover timestamp, so every image
+  appears exactly when the voiceover talks about it.
+- If an image timestamp doesn't line up with the voiceover, adjust the
+  image timing to fit the voiceover. Do NOT change or cut the voiceover.
+- The video must be exactly as long as the voiceover. Keep the image
+  on screen until the next image's timestamp.
+- Add a slow zoom on each image so it isn't a still picture.
+- Add a short fade (0.3 seconds) between images.
+- Export as 1920x1080 MP4, 30fps, with the voiceover as the audio.
+
+Here are my image timestamps:
+[Image 1] = 00:00
+[Image 2] = 00:07
+[Image 3] = 00:15
+(add more lines as needed)
+
+Voiceover script (so you can match the words to the images):
+[paste your voiceover text here]
+
+When finished, tell me:
+- The final timeline (which image shows from what time to what time).
+- Anything you adjusted, and why.
